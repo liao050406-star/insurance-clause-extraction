@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="五款增额终身寿险13字段抽取、Gold验证与多模型盲测对比展示。">
+  <title>条款审计台｜增额终身寿险结构化抽取</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b1f3a'/%3E%3Cpath d='M17 17h30v7H17zm0 12h20v7H17zm0 12h30v7H17z' fill='%23f2c94c'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="polish.css">
+</head>
+<body>
+  <a class="skip" href="#compare">跳到实质差异对比</a>
+  <header class="masthead">
+    <div class="brand"><span class="brand-mark" aria-hidden="true"></span><span>条款审计台</span></div>
+    <nav aria-label="页面导航"><a href="#compare">实质差异对比</a><a href="#matrix">字段矩阵</a><a href="#findings">差异分析</a><a href="#models">三模型实验</a></nav>
+    <div class="scope"><span class="status-dot"></span>5款 · 13字段 · 65项</div>
+  </header>
+
+  <main>
+    <section class="compare" id="compare" aria-labelledby="compare-title">
+      <div class="section-intro">
+        <h2 id="compare-title">五款产品，实质差异在哪</h2>
+        <p>先横向对齐 13 个可比字段：产品在列、对比项目在行。标黄的「实质差异」行给出差异要点并附条款依据；其余细节可在下方字段矩阵逐条核对，结论不构成产品优劣判断。</p>
+      </div>
+      <div class="cmp-scroll" tabindex="0" aria-label="五款增额终身寿险实质差异对比表">
+        <table class="cmp-table"><thead id="compare-head"></thead><tbody id="compare-body"></tbody></table>
+      </div>
+      <div class="cmp-report-block">
+        <div class="cmp-report-title"><h3>对比速览报告</h3><span>6 项实质差异 · 附条款依据</span></div>
+        <div id="compare-report" class="cmp-report"></div>
+      </div>
+    </section>
+
+    <section class="opening" aria-labelledby="page-title">
+      <div>
+        <h1 id="page-title">从保险条款到<br><span>可核验结论</span></h1>
+        <p>把 PDF 解析、章节切分、结构化抽取、Gold 对比和多模型盲测放在同一张证据桌面上。</p>
+      </div>
+      <div class="audit-strip" aria-label="当前验证说明">
+        <div><strong>盲测完成</strong><span>模型 B / C 独立盲测，严格 52.31% / 58.46%</span></div>
+        <div><strong>SHA-256</strong><span>Gold 前后哈希一致（e76ddd93…）</span></div>
+        <div class="warning"><strong>双口径</strong><span>严格为机器下界；实质为人工复核口径，须并列展示</span></div>
+      </div>
+    </section>
+
+    <section class="workspace" id="matrix" aria-labelledby="matrix-title">
+      <aside class="control-rail">
+        <div class="rail-heading"><h2 id="matrix-title">字段矩阵</h2><span id="visible-count">13 / 13</span></div>
+        <label class="search-label" for="field-search">检索字段或内容</label>
+        <div class="search-wrap"><input id="field-search" type="search" placeholder="如：等待期、贷款、红利"><kbd>/</kbd></div>
+        <fieldset><legend>字段分组</legend><button class="filter active" data-group="all">全部字段</button><button class="filter" data-group="coverage">投保与责任</button><button class="filter" data-group="benefit">给付与增长</button><button class="filter" data-group="rights">保单权益</button><button class="filter" data-group="dividend">分红机制</button></fieldset>
+        <div class="rail-note"><span>读取提示</span><p>产品在左、字段逐行列出，Gold 与三模型并排；点击任意单元格查看条款号、原文与 Gold 对照。</p></div>
+      </aside>
+
+      <div class="table-stage">
+        <div class="table-toolbar">
+          <p>逐格标注与 Gold 的一致状态；<b>null</b> 表示条款未确认，不等于数值 0。</p>
+          <div class="legend" aria-label="状态图例">
+            <span class="legend-item"><i class="dot st-correct"></i>一致</span>
+            <span class="legend-item"><i class="dot st-equivalent"></i>语义等价</span>
+            <span class="legend-item"><i class="dot st-substantive"></i>实质分歧</span>
+            <span class="legend-item"><i class="dot st-missing"></i>缺失</span>
+          </div>
+          <button id="reset-btn" type="button">重置视图</button>
+        </div>
+        <div class="table-body">
+          <div class="table-scroll" tabindex="0" aria-label="可滚动的保险产品字段对比表">
+            <table><thead id="matrix-head"></thead><tbody id="matrix-body"></tbody></table>
+          </div>
+          <div id="evidence-panel" class="evidence-panel" hidden role="region" aria-labelledby="evidence-value" aria-live="polite">
+            <button class="close-evidence" type="button" aria-label="关闭证据">×</button>
+            <div class="evidence-meta"><span id="evidence-product"></span><span id="evidence-field"></span><span id="evidence-view"></span></div>
+            <h3 id="evidence-value"></h3>
+            <p class="clause" id="evidence-clause"></p>
+            <div class="evidence-compare" id="evidence-compare" hidden>
+              <span>Gold 基准值</span><code class="gold-chip" id="evidence-gold-value"></code><em id="evidence-gold-status"></em>
+            </div>
+            <blockquote id="evidence-text"></blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="findings" id="findings" aria-labelledby="findings-title">
+      <div class="section-intro"><h2 id="findings-title">真正影响比较的，不只是一列增长率</h2><p>差异结论只消费已验证字段，并绑定到可追溯证据。</p></div>
+      <div id="finding-list" class="finding-list"></div>
+    </section>
+
+    <section class="model-lab" id="models" aria-labelledby="models-title">
+      <div class="section-intro"><h2 id="models-title">三模型实验台</h2><p>统一 V3 Prompt、统一 13 字段 Schema、统一 Gold；严格区分开发复核与独立盲测。</p></div>
+      <div class="model-track" id="model-track"></div>
+      <div class="substantive-block">
+        <div class="section-intro compact"><h2>实质分歧清单</h2><p>13 处需人工复核：数值/边界、null 误判、子键遗漏、定义混写。</p></div>
+        <div id="substantive-list" class="substantive-list"></div>
+      </div>
+      <div class="method-note"><strong>最终口径</strong><p>比较模型 A、B、C 与 Gold 的字段准确率、一致率、null 分歧、数值分歧、长文本分歧和来源分歧，再回到原条款裁决。严格准确率为机器下界，实质准确率为人工复核口径，两者必须并列展示。</p></div>
+    </section>
+  </main>
+
+  <footer><p>课程作业展示 · 数据获取时间 2026-09-23 · 盲测完成 2026-09-28</p><p>仅用于条款信息整理，不构成保险建议、产品推荐或产品排名。</p></footer>
+  <script src="data.js"></script><script src="app.js"></script>
+</body>
+</html>
