@@ -1,0 +1,13 @@
+{
+  "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+  "fields": {
+    "policy_loan_max_term_months": {
+      "value": 6,
+      "source": {
+        "clause": "6.2",
+        "page": "8",
+        "text": "每次贷款期限最长不超过 6 个月,贷款利率按您与我们签订的贷款协议中约定的利率执行。"
+      }
+    }
+  }
+}

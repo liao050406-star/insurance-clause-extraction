@@ -1,0 +1,58 @@
+{
+  "source_file": "中信保诚「诚托传世增额版」终身寿险B3款（分红型）_条款.pdf",
+  "source_sha256": "febf68a79647c817962dae51ec02b1d56ae34d0b79ae589a1438eda90e2b50b2",
+  "canonical_text_sha256": "e6986cb9d71f3cdc4a6b03f8b99c5a22a3ae5cf88f04959cc19ffa28a0598fdf",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 771
+    },
+    {
+      "page_number": 2,
+      "char_start": 785,
+      "char_end": 1739
+    },
+    {
+      "page_number": 3,
+      "char_start": 1753,
+      "char_end": 2722
+    },
+    {
+      "page_number": 4,
+      "char_start": 2736,
+      "char_end": 3850
+    },
+    {
+      "page_number": 5,
+      "char_start": 3864,
+      "char_end": 4803
+    },
+    {
+      "page_number": 6,
+      "char_start": 4817,
+      "char_end": 5819
+    },
+    {
+      "page_number": 7,
+      "char_start": 5833,
+      "char_end": 6938
+    },
+    {
+      "page_number": 8,
+      "char_start": 6952,
+      "char_end": 7895
+    },
+    {
+      "page_number": 9,
+      "char_start": 7909,
+      "char_end": 9059
+    },
+    {
+      "page_number": 10,
+      "char_start": 9074,
+      "char_end": 9713
+    }
+  ]
+}

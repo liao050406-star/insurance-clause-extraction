@@ -1,0 +1,16 @@
+{
+  "source_file": "阳光人寿鑫壹号终身寿险（分红型）条款.pdf",
+  "source_sha256": "475cdb17eb5de6ccb3a7b7f5326f01807a88cc3aaa9a2201133920d0f5c6d65a",
+  "status": "ok",
+  "page_count": 11,
+  "total_raw_chars": 11459,
+  "total_clean_chars": 11324,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 11
+  },
+  "removed_repeating_margin_lines": [
+    "#-#"
+  ],
+  "warnings": []
+}

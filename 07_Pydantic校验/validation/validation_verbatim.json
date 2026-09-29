@@ -1,0 +1,134 @@
+{
+  "summary": {
+    "generated_at": "2026-09-29T15:42:33+08:00",
+    "gold_verbatim_sha256": "341b163540539c18364da427c09e4ba1a15591a08b5ce7b4a427c73780bda37f",
+    "total": 12,
+    "correct": 12,
+    "incorrect": 0,
+    "missing_product": 0,
+    "grounded": 12,
+    "accuracy": 1.0
+  },
+  "results": [
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "item_type": "责任名称",
+      "item_name": "身故或全残保险金",
+      "source_clause": "2.1 保险责任",
+      "status": "correct",
+      "grounded": true,
+      "canonical_file": "富泽泽瑞一生(献礼版)终身寿险(分红型).canonical.txt"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "item_type": "责任名称",
+      "item_name": "交清增额保险对应的身故或全残保险金",
+      "source_clause": "5.2 红利领取方式",
+      "status": "correct",
+      "grounded": true,
+      "canonical_file": "富泽泽瑞一生(献礼版)终身寿险(分红型).canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "item_type": "责任名称",
+      "item_name": "身故保险金",
+      "source_clause": "2.3 我们提供的保障",
+      "status": "correct",
+      "grounded": true,
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险(分红型)条款.canonical.txt"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "item_type": "责任名称",
+      "item_name": "身故保险金",
+      "source_clause": "2.5 保险责任",
+      "status": "correct",
+      "grounded": true,
+      "canonical_file": "自选-太保鑫相伴(2025)终身寿险.canonical.txt"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "item_type": "责任名称",
+      "item_name": "特定客运交通工具意外身故保险金",
+      "source_clause": "2.5 保险责任",
+      "status": "correct",
+      "grounded": true,
+      "canonical_file": "自选-太保鑫相伴(2025)终身寿险.canonical.txt"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "item_type": "责任名称",
+      "item_name": "身故或身体全残保险金",
+      "source_clause": "第五条 保险责任",
+      "status": "correct",
+      "grounded": true,
+      "canonical_file": "自选-新华人寿《E增福优享版终身寿险(互联网)》.canonical.txt"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "item_type": "责任名称",
+      "item_name": "身故或全残保险金",
+      "source_clause": "2.4 保险责任",
+      "status": "correct",
+      "grounded": true,
+      "canonical_file": "东方嘉富东方尊4.0(臻享版)终身寿险条款.canonical.txt"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "item_type": "免责原文",
+      "item_name": "免责原文",
+      "source_clause": "2.2 责任免除",
+      "status": "correct",
+      "grounded": true,
+      "canonical_file": "富泽泽瑞一生(献礼版)终身寿险(分红型).canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "item_type": "免责原文",
+      "item_name": "免责原文",
+      "source_clause": "2.4 我们不承担的责任",
+      "status": "correct",
+      "grounded": true,
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险(分红型)条款.canonical.txt"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "item_type": "免责原文",
+      "item_name": "免责原文",
+      "source_clause": "2.6 责任免除",
+      "status": "correct",
+      "grounded": true,
+      "canonical_file": "自选-太保鑫相伴(2025)终身寿险.canonical.txt"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "item_type": "免责原文",
+      "item_name": "免责原文",
+      "source_clause": "第六条 责任免除",
+      "status": "correct",
+      "grounded": true,
+      "canonical_file": "自选-新华人寿《E增福优享版终身寿险(互联网)》.canonical.txt"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "item_type": "免责原文",
+      "item_name": "免责原文",
+      "source_clause": "2.5 责任免除",
+      "status": "correct",
+      "grounded": true,
+      "canonical_file": "东方嘉富东方尊4.0(臻享版)终身寿险条款.canonical.txt"
+    }
+  ]
+}

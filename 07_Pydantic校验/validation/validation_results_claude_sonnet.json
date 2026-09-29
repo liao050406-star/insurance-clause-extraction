@@ -1,0 +1,704 @@
+{
+  "model_id": "claude_sonnet",
+  "gold_sha256": "e76ddd93c670b1581d686af81228273319b09b0a7a2f19ff1fa15cab38959942",
+  "total": 65,
+  "correct": 34,
+  "incorrect": 31,
+  "missing": 0,
+  "accuracy": 0.5230769230769231,
+  "independent_blind_test": true,
+  "by_field": {
+    "insured_age_range": {
+      "correct": 4,
+      "incorrect": 1
+    },
+    "waiting_period": {
+      "correct": 5
+    },
+    "coverage_type": {
+      "correct": 5
+    },
+    "benefit_before_payment_end": {
+      "incorrect": 5
+    },
+    "benefit_after_payment_end": {
+      "incorrect": 5
+    },
+    "age_benefit_ratio": {
+      "incorrect": 5
+    },
+    "guaranteed_growth_rate": {
+      "correct": 5
+    },
+    "effective_sum_assured_definition": {
+      "incorrect": 5
+    },
+    "policy_loan": {
+      "correct": 1,
+      "incorrect": 4
+    },
+    "reduction_rule": {
+      "incorrect": 5
+    },
+    "dividend_guarantee": {
+      "correct": 5
+    },
+    "dividend_type": {
+      "correct": 5
+    },
+    "dividend_payment_method": {
+      "correct": 4,
+      "incorrect": 1
+    }
+  },
+  "by_product": {
+    "fuze_zerui_xianli": {
+      "correct": 8,
+      "incorrect": 5
+    },
+    "hengan_chuanshi_ruiying_b": {
+      "correct": 6,
+      "incorrect": 7
+    },
+    "cpic_xinxiangban_2025": {
+      "incorrect": 7,
+      "correct": 6
+    },
+    "nci_ezengfu_youxiang": {
+      "correct": 7,
+      "incorrect": 6
+    },
+    "dongfang_zun_4_zhenxiang": {
+      "correct": 7,
+      "incorrect": 6
+    }
+  },
+  "details": [
+    {
+      "product_id": "fuze_zerui_xianli",
+      "field_name": "insured_age_range",
+      "status": "correct",
+      "predicted": "0周岁(须出生满28日)至70周岁",
+      "gold": "0周岁（须出生满28日）至70周岁"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "field_name": "waiting_period",
+      "status": "correct",
+      "predicted": null,
+      "gold": null
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "field_name": "coverage_type",
+      "status": "correct",
+      "predicted": "身故或全残保险金",
+      "gold": "身故或全残保险金"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "field_name": "benefit_before_payment_end",
+      "status": "incorrect",
+      "predicted": {
+        "under_18": "max(基本保险金额对应的累计已交保险费, 基本保险金额对应的现金价值)",
+        "adult_before_payment_end": "max(基本保险金额对应的累计已交保险费 × 到达年龄给付比例, 基本保险金额对应的现金价值)"
+      },
+      "gold": {
+        "under_18": "max(累计已交保险费,现金价值)",
+        "adult_before_payment_end": "max(累计已交保险费×年龄给付比例,现金价值)"
+      }
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "field_name": "benefit_after_payment_end",
+      "status": "incorrect",
+      "predicted": {
+        "adult_after_payment_end": "max(基本保险金额对应的累计已交保险费 × 到达年龄给付比例, 基本保险金额对应的现金价值, 当年度保险金额)"
+      },
+      "gold": "max(累计已交保险费×年龄给付比例,现金价值,当年度保险金额)"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "field_name": "age_benefit_ratio",
+      "status": "incorrect",
+      "predicted": {
+        "17周岁(含)以下": 1.0,
+        "18-40周岁": 1.6,
+        "41-60周岁": 1.4,
+        "61周岁(含)以上": 1.2
+      },
+      "gold": {
+        "0-17": 1.0,
+        "18-40": 1.6,
+        "41-60": 1.4,
+        "61+": 1.2
+      }
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "field_name": "guaranteed_growth_rate",
+      "status": "correct",
+      "predicted": 0.0175,
+      "gold": 0.0175
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "field_name": "effective_sum_assured_definition",
+      "status": "incorrect",
+      "predicted": "本合同首个保单年度内,当年度保险金额为基本保险金额;从第二个保单年度起,年度保险金额每年按基本保险金额的 1.75%以年复利增加,即当年度保险金额等于上一个保单年度保险金额乘以(1+1.75%)。",
+      "gold": "首个保单年度当年度保险金额=基本保险金额；第二个保单年度起按上一保单年度保险金额×1.0175递增"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "field_name": "policy_loan",
+      "status": "correct",
+      "predicted": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "after_free_look_period": true
+      },
+      "gold": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "after_free_look_period": true
+      }
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "field_name": "reduction_rule",
+      "status": "incorrect",
+      "predicted": "本合同有效且在本合同第五个保单周年日(含)以后可申请减少基本保险金额;每个保单年度累计减少的基本保险金额对应的现金价值之和不得超过已交纳的全部保险费的20%;减少后的基本保险金额不得低于申请时规定的最低金额。",
+      "gold": "第5个保单周年日（含）后可减保；每个保单年度累计减少部分对应现金价值≤累计已交全部保费20%；减后基本保额不得低于规定最低金额"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "field_name": "dividend_guarantee",
+      "status": "correct",
+      "predicted": false,
+      "gold": false
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "field_name": "dividend_type",
+      "status": "correct",
+      "predicted": null,
+      "gold": null
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "field_name": "dividend_payment_method",
+      "status": "correct",
+      "predicted": [
+        "现金领取",
+        "累积生息",
+        "购买交清增额保险"
+      ],
+      "gold": [
+        "现金领取",
+        "累积生息",
+        "购买交清增额保险"
+      ]
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "field_name": "insured_age_range",
+      "status": "correct",
+      "predicted": null,
+      "gold": null
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "field_name": "waiting_period",
+      "status": "correct",
+      "predicted": 90,
+      "gold": 90
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "field_name": "coverage_type",
+      "status": "correct",
+      "predicted": "身故保险金",
+      "gold": "身故保险金"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "field_name": "benefit_before_payment_end",
+      "status": "incorrect",
+      "predicted": {
+        "part1": "max(已交付的保险费 × 给付比例, 初始保险金额对应的现金价值)",
+        "part2": "累计红利保险金额对应的现金价值",
+        "combination": "sum"
+      },
+      "gold": {
+        "rule": "sum",
+        "part1": "max(已交付保险费×年龄给付比例,初始保险金额对应现金价值)",
+        "part2": "累计红利保险金额对应现金价值",
+        "condition": "交费期满日（含）之前身故，或身故时未满18周岁"
+      }
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "field_name": "benefit_after_payment_end",
+      "status": "incorrect",
+      "predicted": {
+        "part1": "max(初始保险金额 × 1.015^(n-1), 已交付的保险费 × 给付比例, 初始保险金额对应的现金价值)",
+        "part2": "max(累计红利保险金额 × 1.015^(n-1), 累计红利保险金额对应的现金价值)",
+        "combination": "sum"
+      },
+      "gold": {
+        "rule": "sum",
+        "part1": "max(初始保险金额×1.015^(n-1),已交付保险费×年龄给付比例,初始保险金额对应现金价值)",
+        "part2": "max(累计红利保险金额×1.015^(n-1),累计红利保险金额对应现金价值)",
+        "condition": "交费期满日（不含）之后且已满18周岁"
+      }
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "field_name": "age_benefit_ratio",
+      "status": "incorrect",
+      "predicted": {
+        "0-17周岁": 1.0,
+        "18-41周岁": 1.6,
+        "42-61周岁": 1.4,
+        "62周岁及以上": 1.2
+      },
+      "gold": {
+        "0-17": 1.0,
+        "18-41": 1.6,
+        "42-61": 1.4,
+        "62+": 1.2
+      }
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "field_name": "guaranteed_growth_rate",
+      "status": "correct",
+      "predicted": 0.015,
+      "gold": 0.015
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "field_name": "effective_sum_assured_definition",
+      "status": "incorrect",
+      "predicted": "有效保险金额为初始保险金额与各保单年度累计已分配的红利保险金额之和,发生变更的以变更后的金额为准;红利保险金额指因分配年度红利所增加的保险金额,已分配的红利保险金额计入以后各年度的红利计算基数。",
+      "gold": "初始保险金额+各保单年度累计已分配的红利保险金额"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "field_name": "policy_loan",
+      "status": "incorrect",
+      "predicted": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "after_free_look_period": true
+      },
+      "gold": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "basis": "现金价值扣除各项欠款后余额"
+      }
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "field_name": "reduction_rule",
+      "status": "incorrect",
+      "predicted": "本合同有效期内可书面申请减少保额;同一保单年度内累计申请减少的初始保险金额之和不得超过本合同生效时初始保险金额的20%;减少的初始保险金额和减少后的初始保险金额均需符合规定限额。",
+      "gold": "初始保险金额和累计红利保险金额同比例减少；同一保单年度累计减少初始保险金额≤合同生效时初始保险金额20%"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "field_name": "dividend_guarantee",
+      "status": "correct",
+      "predicted": false,
+      "gold": false
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "field_name": "dividend_type",
+      "status": "correct",
+      "predicted": [
+        "年度红利",
+        "终了红利"
+      ],
+      "gold": [
+        "年度红利",
+        "终了红利"
+      ]
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "field_name": "dividend_payment_method",
+      "status": "incorrect",
+      "predicted": {
+        "年度红利": "增加有效保险金额",
+        "终了红利": "以现金方式支付"
+      },
+      "gold": {
+        "年度红利": "增加红利保险金额并计入以后年度红利计算基数",
+        "终了红利": "合同终止时以现金方式支付"
+      }
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "field_name": "insured_age_range",
+      "status": "incorrect",
+      "predicted": "女性被保险人:0周岁(须出生满30日)至75周岁;男性被保险人:0周岁(须出生满30日)至71周岁",
+      "gold": "女性：0周岁（须出生满30日）至75周岁；男性：0周岁（须出生满30日）至71周岁"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "field_name": "waiting_period",
+      "status": "correct",
+      "predicted": 90,
+      "gold": 90
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "field_name": "coverage_type",
+      "status": "correct",
+      "predicted": [
+        "身故保险金",
+        "特定客运交通工具意外身故保险金"
+      ],
+      "gold": [
+        "身故保险金",
+        "特定客运交通工具意外身故保险金"
+      ]
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "field_name": "benefit_before_payment_end",
+      "status": "incorrect",
+      "predicted": {
+        "under_18": "max(已支付的保险费, 现金价值)",
+        "adult_before_payment_end": "max(已支付的保险费 × 到达年龄比例, 现金价值)"
+      },
+      "gold": {
+        "under_18": "max(已支付保险费,现金价值)",
+        "adult_before_payment_end": "max(已支付保险费×年龄比例,现金价值)"
+      }
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "field_name": "benefit_after_payment_end",
+      "status": "incorrect",
+      "predicted": {
+        "adult_after_payment_end": "max(已支付的保险费 × 到达年龄比例, 现金价值, 有效保险金额)"
+      },
+      "gold": "max(已支付保险费×年龄比例,现金价值,有效保险金额)"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "field_name": "age_benefit_ratio",
+      "status": "incorrect",
+      "predicted": {
+        "40周岁及以下": 1.6,
+        "41-60周岁": 1.4,
+        "61周岁及以上": 1.2
+      },
+      "gold": {
+        "<=40": 1.6,
+        "41-60": 1.4,
+        "61+": 1.2
+      }
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "field_name": "guaranteed_growth_rate",
+      "status": "correct",
+      "predicted": 0.02,
+      "gold": 0.02
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "field_name": "effective_sum_assured_definition",
+      "status": "incorrect",
+      "predicted": "本合同生效时的有效保险金额等于基本保险金额;每满1个保单年度,有效保险金额按约定的额度增加一次,增加额度为前一个保单年度有效保险金额的2.0%。",
+      "gold": "生效时有效保险金额=基本保险金额；以后每满1个保单年度按前一年度有效保险金额×1.02递增"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "field_name": "policy_loan",
+      "status": "incorrect",
+      "predicted": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "after_free_look_period": true
+      },
+      "gold": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "after_free_look_period": true,
+        "basis": "现金价值扣除各项欠款后余额"
+      }
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "field_name": "reduction_rule",
+      "status": "incorrect",
+      "predicted": "在本合同保险期间内可申请减少基本保险金额;每年累计申请减少的基本保险金额之和不得超过本合同生效时基本保险金额的20%;基本保险金额减少后保险费不得低于规定的最低标准。",
+      "gold": "每年累计减少基本保险金额≤合同生效时基本保险金额20%；减保后保费不得低于规定最低标准"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "field_name": "dividend_guarantee",
+      "status": "correct",
+      "predicted": null,
+      "gold": null
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "field_name": "dividend_type",
+      "status": "correct",
+      "predicted": null,
+      "gold": null
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "field_name": "dividend_payment_method",
+      "status": "correct",
+      "predicted": null,
+      "gold": null
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "field_name": "insured_age_range",
+      "status": "correct",
+      "predicted": "0周岁(须出生满30日)至70周岁",
+      "gold": "0周岁（须出生满30日）至70周岁"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "field_name": "waiting_period",
+      "status": "correct",
+      "predicted": 180,
+      "gold": 180
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "field_name": "coverage_type",
+      "status": "correct",
+      "predicted": "身故或身体全残保险金",
+      "gold": "身故或身体全残保险金"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "field_name": "benefit_before_payment_end",
+      "status": "incorrect",
+      "predicted": {
+        "under_18": "max(实际交纳的保险费, 现金价值)",
+        "adult_before_payment_end": "max(实际交纳的保险费 × 给付系数, 现金价值)"
+      },
+      "gold": {
+        "under_18": "max(实际交纳保险费,现金价值)",
+        "adult_before_payment_end": "max(实际交纳保险费×给付系数,现金价值)"
+      }
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "field_name": "benefit_after_payment_end",
+      "status": "incorrect",
+      "predicted": {
+        "adult_after_payment_end": "max(实际交纳的保险费 × 给付系数, 现金价值, 基本保险金额 × (1+2%)^(n-1))"
+      },
+      "gold": "max(实际交纳保险费×给付系数,现金价值,基本保险金额×1.02^(n-1))"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "field_name": "age_benefit_ratio",
+      "status": "incorrect",
+      "predicted": {
+        "18-40周岁": 1.6,
+        "41-60周岁": 1.4,
+        "61周岁及以上": 1.2
+      },
+      "gold": {
+        "18-40": 1.6,
+        "41-60": 1.4,
+        "61+": 1.2
+      }
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "field_name": "guaranteed_growth_rate",
+      "status": "correct",
+      "predicted": 0.02,
+      "gold": 0.02
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "field_name": "effective_sum_assured_definition",
+      "status": "incorrect",
+      "predicted": "本合同保险金额按基本保险金额进行计算确定,即基本保险金额×(1+2%)^(n-1),其中n为被保险人身故或身体全残时的保单年度数。",
+      "gold": "保险金额根据基本保险金额及第五条保险责任计算；交费期满后的首个保单周年日起第三项按基本保险金额×1.02^(n-1)计算"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "field_name": "policy_loan",
+      "status": "incorrect",
+      "predicted": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "after_free_look_period": true
+      },
+      "gold": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "after_free_look_period": true,
+        "basis": "申请贷款时现金价值的80%扣除各项欠款后的余额"
+      }
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "field_name": "reduction_rule",
+      "status": "incorrect",
+      "predicted": "在本合同保险期间内可申请减保,基本保险金额同比例减少;每个保单年度累计申请减少的基本保险金额之和不得超过本合同生效时基本保险金额的20%;减保后保险费不得低于规定的最低标准。",
+      "gold": "每个保单年度累计减少基本保险金额≤合同生效时基本保险金额20%；减保后保费不得低于最低标准"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "field_name": "dividend_guarantee",
+      "status": "correct",
+      "predicted": null,
+      "gold": null
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "field_name": "dividend_type",
+      "status": "correct",
+      "predicted": null,
+      "gold": null
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "field_name": "dividend_payment_method",
+      "status": "correct",
+      "predicted": null,
+      "gold": null
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "field_name": "insured_age_range",
+      "status": "correct",
+      "predicted": "0周岁(须出生满28日)至75周岁",
+      "gold": "0周岁（须出生满28日）至75周岁"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "field_name": "waiting_period",
+      "status": "correct",
+      "predicted": null,
+      "gold": null
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "field_name": "coverage_type",
+      "status": "correct",
+      "predicted": "身故或全残保险金",
+      "gold": "身故或全残保险金"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "field_name": "benefit_before_payment_end",
+      "status": "incorrect",
+      "predicted": {
+        "under_18": "max(已支付的保险费, 现金价值)",
+        "adult_before_payment_end": "max(已支付的保险费 × 到达年龄比例, 现金价值)"
+      },
+      "gold": {
+        "under_18": "max(已支付保险费,现金价值)",
+        "adult_before_payment_end": "max(已支付保险费×年龄比例,现金价值)"
+      }
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "field_name": "benefit_after_payment_end",
+      "status": "incorrect",
+      "predicted": {
+        "adult_after_payment_end": "max(有效保险金额, 已支付的保险费 × 到达年龄比例, 现金价值)"
+      },
+      "gold": "max(有效保险金额,已支付保险费×年龄比例,现金价值)"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "field_name": "age_benefit_ratio",
+      "status": "incorrect",
+      "predicted": {
+        "40周岁(含)以下": 1.6,
+        "41周岁(含)-60周岁(含)": 1.4,
+        "61周岁(含)及以上": 1.2
+      },
+      "gold": {
+        "<=40": 1.6,
+        "41-60": 1.4,
+        "61+": 1.2
+      }
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "field_name": "guaranteed_growth_rate",
+      "status": "correct",
+      "predicted": 0.02,
+      "gold": 0.02
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "field_name": "effective_sum_assured_definition",
+      "status": "incorrect",
+      "predicted": "本合同第一个保单年度的有效保险金额等于本合同的基本保险金额;从第二个保单年度起,各保单年度的有效保险金额在上一保单年度的有效保险金额的基础上增加2%,即当年度的有效保险金额等于上一保单年度的有效保险金额乘以(1+2%)。",
+      "gold": "第一个保单年度有效保险金额=基本保险金额；第二个保单年度起=上一保单年度有效保险金额×1.02"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "field_name": "policy_loan",
+      "status": "incorrect",
+      "predicted": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true
+      },
+      "gold": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "basis": "现金价值扣除各项欠款后余额"
+      }
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "field_name": "reduction_rule",
+      "status": "incorrect",
+      "predicted": "自本合同第5个保单周年日开始可申请减少基本保险金额;每个保单年度累计减少的基本保险金额对应的现金价值之和不得超过已支付的实际保险费的20%;减少后的基本保险金额不得低于申请时规定的最低限额。",
+      "gold": "第5个保单周年日起可减保；每个保单年度累计减少部分对应现金价值≤已支付实际保险费20%；减后基本保险金额不得低于规定最低限额"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "field_name": "dividend_guarantee",
+      "status": "correct",
+      "predicted": null,
+      "gold": null
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "field_name": "dividend_type",
+      "status": "correct",
+      "predicted": null,
+      "gold": null
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "field_name": "dividend_payment_method",
+      "status": "correct",
+      "predicted": null,
+      "gold": null
+    }
+  ]
+}

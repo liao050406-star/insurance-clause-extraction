@@ -1,0 +1,58 @@
+{
+  "source_file": "国寿年丰传家终身寿险(分红型)条款.pdf",
+  "source_sha256": "83cc386cc5363e6e94c5618c7f3d7d858b245542fccc2731933f065d06c7247a",
+  "canonical_text_sha256": "4ee81834fe6299bada62bdab815a1b83e01a57ba26682ee470cc46b91f518484",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 1205
+    },
+    {
+      "page_number": 2,
+      "char_start": 1219,
+      "char_end": 1641
+    },
+    {
+      "page_number": 3,
+      "char_start": 1655,
+      "char_end": 2875
+    },
+    {
+      "page_number": 4,
+      "char_start": 2889,
+      "char_end": 4244
+    },
+    {
+      "page_number": 5,
+      "char_start": 4258,
+      "char_end": 5495
+    },
+    {
+      "page_number": 6,
+      "char_start": 5509,
+      "char_end": 6858
+    },
+    {
+      "page_number": 7,
+      "char_start": 6872,
+      "char_end": 8073
+    },
+    {
+      "page_number": 8,
+      "char_start": 8087,
+      "char_end": 9290
+    },
+    {
+      "page_number": 9,
+      "char_start": 9304,
+      "char_end": 10726
+    },
+    {
+      "page_number": 10,
+      "char_start": 10741,
+      "char_end": 11252
+    }
+  ]
+}

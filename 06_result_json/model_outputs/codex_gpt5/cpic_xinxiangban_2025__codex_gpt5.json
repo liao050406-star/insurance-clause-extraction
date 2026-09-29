@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "model_id": "codex_gpt5",
+    "product_id": "cpic_xinxiangban_2025",
+    "product_name": "太保鑫相伴（2025）终身寿险",
+    "evaluation_mode": "gold_aware_development_review",
+    "independent_blind_test": false,
+    "generated_at": "2026-09-23T06:01:40.867419+00:00",
+    "warning": "本结果用于验证数据结构与报告链路，模型已接触Gold，不计入独立盲测准确率。"
+  },
+  "fields": {
+    "insured_age_range": {
+      "value": "女性：0周岁（须出生满30日）至75周岁；男性：0周岁（须出生满30日）至71周岁",
+      "source_clause": "1.3 投保范围",
+      "source_text": "其中女性被保险人的投保年龄范围为 0 周岁（须出生满 30 日）至 75 周岁，男性被保险人的投保年龄范围为 0 周岁（须出生满 30 日）至 71 周岁。"
+    },
+    "waiting_period": {
+      "value": 90,
+      "source_clause": "2.5 保险责任",
+      "source_text": "若被保险人因遭受意外伤害导致身故，或在本合同生效或最后一次复效（以较迟者为准）之日起 90 日后因意外伤害以外的原因导致身故："
+    },
+    "coverage_type": {
+      "value": [
+        "身故保险金",
+        "特定客运交通工具意外身故保险金"
+      ],
+      "source_clause": "2.5 保险责任",
+      "source_text": "身故保险金；特定客运交通工具意外身故保险金"
+    },
+    "benefit_before_payment_end": {
+      "value": {
+        "under_18": "max(已支付保险费,现金价值)",
+        "adult_before_payment_end": "max(已支付保险费×年龄比例,现金价值)"
+      },
+      "source_clause": "2.5 保险责任",
+      "source_text": "被保险人年满 18 周岁且处于交费期间届满后的首个合同生效日对应日（不含）之前，我们按以下两项中金额较大者给付身故保险金，本合同终止：①被保险人身故时您根据本合同约定已支付的保险费乘以被保险人身故时的到达年龄所对应的比例；②被保险人身故时本合同的现金价值。"
+    },
+    "benefit_after_payment_end": {
+      "value": "max(已支付保险费×年龄比例,现金价值,有效保险金额)",
+      "source_clause": "2.5 保险责任",
+      "source_text": "被保险人年满 18 周岁且处于交费期间届满后的首个合同生效日对应日（含）之后，我们按以下三项中金额较大者给付身故保险金，本合同终止：①被保险人身故时您根据本合同约定已支付的保险费乘以被保险人身故时的到达年龄所对应的比例；②被保险人身故时本合同的现金价值；③被保险人身故时本合同的有效保险金额。"
+    },
+    "age_benefit_ratio": {
+      "value": {
+        "<=40": 1.6,
+        "41-60": 1.4,
+        "61+": 1.2
+      },
+      "source_clause": "2.5 保险责任",
+      "source_text": "被保险人身故时的到达年龄 对应比例 40 周岁及以下 160% 41-60 周岁 140% 61 周岁及以上 120%"
+    },
+    "guaranteed_growth_rate": {
+      "value": 0.02,
+      "source_clause": "2.2 有效保险金额",
+      "source_text": "每满 1 个保单年度，有效保险金额按约定的额度增加一次，增加额度为前一个保单年度有效保险金额的 2.0%。"
+    },
+    "effective_sum_assured_definition": {
+      "value": "生效时有效保险金额=基本保险金额；以后每满1个保单年度按前一年度有效保险金额×1.02递增",
+      "source_clause": "2.2 有效保险金额",
+      "source_text": "本合同生效时的有效保险金额等于基本保险金额。每满 1 个保单年度，有效保险金额按约定的额度增加一次，增加额度为前一个保单年度有效保险金额的 2.0%。"
+    },
+    "policy_loan": {
+      "value": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "after_free_look_period": true,
+        "basis": "现金价值扣除各项欠款后余额"
+      },
+      "source_clause": "5.2 保单贷款",
+      "source_text": "在本合同有效期内，经我们审核同意后您可在犹豫期后办理保单贷款。对于以身故为保险金给付条件的保险单，您申请保单贷款必须取得被保险人的书面同意。贷款金额不得超过本合同的现金价值扣除各项欠款后余额的 80%，每次贷款期限最长不超过 6 个月。"
+    },
+    "reduction_rule": {
+      "value": "每年累计减少基本保险金额≤合同生效时基本保险金额20%；减保后保费不得低于规定最低标准",
+      "source_clause": "2.1 基本保险金额",
+      "source_text": "您每年累计申请减少的基本保险金额之和不得超过本合同生效时基本保险金额的 20%。基本保险金额减少后，本合同保险费不低于我们规定的最低标准。"
+    },
+    "dividend_guarantee": {
+      "value": null,
+      "source_clause": "",
+      "source_text": ""
+    },
+    "dividend_type": {
+      "value": null,
+      "source_clause": "",
+      "source_text": ""
+    },
+    "dividend_payment_method": {
+      "value": null,
+      "source_clause": "",
+      "source_text": ""
+    }
+  }
+}

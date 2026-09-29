@@ -1,0 +1,16 @@
+{
+  "source_file": "1.瑞众红上红终身寿险（分红型，鑫瑞版）保险条款_1776352755070.pdf",
+  "source_sha256": "63ed3e9da0a02fa33a474e3d387cd1c98c7d8039de0dccc71d1cbf6c8604d271",
+  "status": "ok",
+  "page_count": 11,
+  "total_raw_chars": 13237,
+  "total_clean_chars": 12838,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 11
+  },
+  "removed_repeating_margin_lines": [
+    "第#页, 共#页"
+  ],
+  "warnings": []
+}

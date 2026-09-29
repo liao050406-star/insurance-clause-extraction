@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "model_id": "replace_with_model_id",
+    "run_at": "YYYY-MM-DDTHH:MM:SS+08:00",
+    "prompt_version": "v3_gold_schema",
+    "product_id": "replace_with_product_id",
+    "product_name": "replace_with_exact_product_name",
+    "evaluation_mode": "independent_blind_test",
+    "independent_blind_test": true
+  },
+  "fields": {
+    "insured_age_range": {"value": null, "source_clause": null, "source_text": null},
+    "waiting_period": {"value": null, "source_clause": null, "source_text": null},
+    "coverage_type": {"value": null, "source_clause": null, "source_text": null},
+    "benefit_before_payment_end": {"value": null, "source_clause": null, "source_text": null},
+    "benefit_after_payment_end": {"value": null, "source_clause": null, "source_text": null},
+    "age_benefit_ratio": {"value": null, "source_clause": null, "source_text": null},
+    "guaranteed_growth_rate": {"value": null, "source_clause": null, "source_text": null},
+    "effective_sum_assured_definition": {"value": null, "source_clause": null, "source_text": null},
+    "policy_loan": {"value": null, "source_clause": null, "source_text": null},
+    "reduction_rule": {"value": null, "source_clause": null, "source_text": null},
+    "dividend_guarantee": {"value": null, "source_clause": null, "source_text": null},
+    "dividend_type": {"value": null, "source_clause": null, "source_text": null},
+    "dividend_payment_method": {"value": null, "source_clause": null, "source_text": null}
+  }
+}

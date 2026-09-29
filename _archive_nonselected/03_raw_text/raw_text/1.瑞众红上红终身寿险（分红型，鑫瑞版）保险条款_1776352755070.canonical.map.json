@@ -1,0 +1,63 @@
+{
+  "source_file": "1.瑞众红上红终身寿险（分红型，鑫瑞版）保险条款_1776352755070.pdf",
+  "source_sha256": "63ed3e9da0a02fa33a474e3d387cd1c98c7d8039de0dccc71d1cbf6c8604d271",
+  "canonical_text_sha256": "e632f76af0ac33e280e13296dbb5ba62e1250154a64a3dc3dbd4e4fdc0901e26",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 1738
+    },
+    {
+      "page_number": 2,
+      "char_start": 1752,
+      "char_end": 2844
+    },
+    {
+      "page_number": 3,
+      "char_start": 2858,
+      "char_end": 3917
+    },
+    {
+      "page_number": 4,
+      "char_start": 3931,
+      "char_end": 5021
+    },
+    {
+      "page_number": 5,
+      "char_start": 5035,
+      "char_end": 6107
+    },
+    {
+      "page_number": 6,
+      "char_start": 6121,
+      "char_end": 7367
+    },
+    {
+      "page_number": 7,
+      "char_start": 7381,
+      "char_end": 8472
+    },
+    {
+      "page_number": 8,
+      "char_start": 8486,
+      "char_end": 9620
+    },
+    {
+      "page_number": 9,
+      "char_start": 9634,
+      "char_end": 10854
+    },
+    {
+      "page_number": 10,
+      "char_start": 10869,
+      "char_end": 12098
+    },
+    {
+      "page_number": 11,
+      "char_start": 12113,
+      "char_end": 12993
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "source_file": "信泰永爱传承（2026）A款终身寿险条款.pdf",
+  "source_sha256": "3a34900f7b75ebbf8d8eace53c24914dabac75dc6b856e4fdc283cfee5d48a7b",
+  "canonical_text_sha256": "47b9e7dd0b4db9be47be4840fb7fbebdb1ed5f7cbd5cfc4c6fc04253da3ffbb8",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 1875
+    },
+    {
+      "page_number": 2,
+      "char_start": 1889,
+      "char_end": 2887
+    },
+    {
+      "page_number": 3,
+      "char_start": 2901,
+      "char_end": 3924
+    },
+    {
+      "page_number": 4,
+      "char_start": 3938,
+      "char_end": 4958
+    },
+    {
+      "page_number": 5,
+      "char_start": 4972,
+      "char_end": 6300
+    },
+    {
+      "page_number": 6,
+      "char_start": 6314,
+      "char_end": 7236
+    },
+    {
+      "page_number": 7,
+      "char_start": 7250,
+      "char_end": 8263
+    },
+    {
+      "page_number": 8,
+      "char_start": 8277,
+      "char_end": 9247
+    },
+    {
+      "page_number": 9,
+      "char_start": 9261,
+      "char_end": 10266
+    },
+    {
+      "page_number": 10,
+      "char_start": 10281,
+      "char_end": 11316
+    },
+    {
+      "page_number": 11,
+      "char_start": 11331,
+      "char_end": 12324
+    },
+    {
+      "page_number": 12,
+      "char_start": 12339,
+      "char_end": 13527
+    },
+    {
+      "page_number": 13,
+      "char_start": 13542,
+      "char_end": 14018
+    }
+  ]
+}

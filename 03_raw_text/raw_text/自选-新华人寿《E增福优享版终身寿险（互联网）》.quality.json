@@ -1,0 +1,16 @@
+{
+  "source_file": "自选-新华人寿《E增福优享版终身寿险（互联网）》.pdf",
+  "source_sha256": "8c881cb4370f9fd5f41c2988d7ee12ca09eefcf810bdc38b56ae4f7f8f7b5480",
+  "status": "ok",
+  "page_count": 7,
+  "total_raw_chars": 8615,
+  "total_clean_chars": 8493,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 7
+  },
+  "removed_repeating_margin_lines": [
+    "# 第#页"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,16 @@
+{
+  "source_file": "瑞众聚宝盆（鑫瑞版）终身寿险_条款.pdf",
+  "source_sha256": "bd0ea4ea54c444a83df127f7062c61c8682aab8449c94eaae83713fc563deca7",
+  "status": "ok",
+  "page_count": 10,
+  "total_raw_chars": 11995,
+  "total_clean_chars": 11494,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 10
+  },
+  "removed_repeating_margin_lines": [
+    "第#页, 共#页"
+  ],
+  "warnings": []
+}

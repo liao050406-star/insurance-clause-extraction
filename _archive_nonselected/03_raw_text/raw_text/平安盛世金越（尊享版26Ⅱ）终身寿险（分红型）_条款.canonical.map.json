@@ -1,0 +1,83 @@
+{
+  "source_file": "平安盛世金越（尊享版26Ⅱ）终身寿险（分红型）_条款.pdf",
+  "source_sha256": "c9415ecac40a4d880f5f86316858e99e336d463578239753385db0a8fab7e26a",
+  "canonical_text_sha256": "22efdca87717e9375739a72843b65f7b30060a23fef5430adc68041f76874644",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 2121
+    },
+    {
+      "page_number": 2,
+      "char_start": 2135,
+      "char_end": 3128
+    },
+    {
+      "page_number": 3,
+      "char_start": 3142,
+      "char_end": 4446
+    },
+    {
+      "page_number": 4,
+      "char_start": 4460,
+      "char_end": 5454
+    },
+    {
+      "page_number": 5,
+      "char_start": 5468,
+      "char_end": 6647
+    },
+    {
+      "page_number": 6,
+      "char_start": 6661,
+      "char_end": 7630
+    },
+    {
+      "page_number": 7,
+      "char_start": 7644,
+      "char_end": 8669
+    },
+    {
+      "page_number": 8,
+      "char_start": 8683,
+      "char_end": 10041
+    },
+    {
+      "page_number": 9,
+      "char_start": 10055,
+      "char_end": 11107
+    },
+    {
+      "page_number": 10,
+      "char_start": 11122,
+      "char_end": 12240
+    },
+    {
+      "page_number": 11,
+      "char_start": 12255,
+      "char_end": 13281
+    },
+    {
+      "page_number": 12,
+      "char_start": 13296,
+      "char_end": 14376
+    },
+    {
+      "page_number": 13,
+      "char_start": 14391,
+      "char_end": 15514
+    },
+    {
+      "page_number": 14,
+      "char_start": 15529,
+      "char_end": 16658
+    },
+    {
+      "page_number": 15,
+      "char_start": 16673,
+      "char_end": 17097
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "source_file": "自选-太保鑫相伴（2025）终身寿险.pdf",
+  "source_sha256": "ab1b6e3d2b6a2589f185b2ffdcfbfc0111398fb8499d528f54872611959f2504",
+  "status": "ok",
+  "page_count": 10,
+  "total_raw_chars": 11645,
+  "total_clean_chars": 11841,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 10
+  },
+  "removed_repeating_margin_lines": [],
+  "warnings": []
+}

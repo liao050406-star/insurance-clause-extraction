@@ -1,0 +1,16 @@
+{
+  "source_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.pdf",
+  "source_sha256": "414a925a20ef620211b2178b823f5f933d152f615632e114015fca70d01e020c",
+  "status": "ok",
+  "page_count": 8,
+  "total_raw_chars": 13143,
+  "total_clean_chars": 13098,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 8
+  },
+  "removed_repeating_margin_lines": [
+    "#/#"
+  ],
+  "warnings": []
+}

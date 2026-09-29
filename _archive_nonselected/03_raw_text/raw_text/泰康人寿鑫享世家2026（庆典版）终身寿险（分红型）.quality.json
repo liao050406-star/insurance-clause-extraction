@@ -1,0 +1,16 @@
+{
+  "source_file": "泰康人寿鑫享世家2026（庆典版）终身寿险（分红型）.pdf",
+  "source_sha256": "8b16cc146232d49c5477bc85808becc019c9d49e12a67f79a3af81291ccc2f0f",
+  "status": "ok",
+  "page_count": 16,
+  "total_raw_chars": 19979,
+  "total_clean_chars": 19640,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 16
+  },
+  "removed_repeating_margin_lines": [
+    "鑫享世家 #(庆典版)条款"
+  ],
+  "warnings": []
+}

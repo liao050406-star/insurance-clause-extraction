@@ -1,0 +1,73 @@
+{
+  "source_file": "复星保德信星福家天马版终身寿险（分红型）条款.pdf",
+  "source_sha256": "474a76b1d042ce1bc889b7572587512de232952a455bf0da9e496d3259ac9ba1",
+  "canonical_text_sha256": "2e55c95a8b5ed1d79f1a891007331295579a9926022bd1e369d1e69f5814bf39",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 374
+    },
+    {
+      "page_number": 2,
+      "char_start": 388,
+      "char_end": 887
+    },
+    {
+      "page_number": 3,
+      "char_start": 901,
+      "char_end": 1971
+    },
+    {
+      "page_number": 4,
+      "char_start": 1985,
+      "char_end": 3085
+    },
+    {
+      "page_number": 5,
+      "char_start": 3099,
+      "char_end": 4122
+    },
+    {
+      "page_number": 6,
+      "char_start": 4136,
+      "char_end": 5286
+    },
+    {
+      "page_number": 7,
+      "char_start": 5300,
+      "char_end": 6366
+    },
+    {
+      "page_number": 8,
+      "char_start": 6380,
+      "char_end": 7376
+    },
+    {
+      "page_number": 9,
+      "char_start": 7390,
+      "char_end": 8440
+    },
+    {
+      "page_number": 10,
+      "char_start": 8455,
+      "char_end": 9461
+    },
+    {
+      "page_number": 11,
+      "char_start": 9476,
+      "char_end": 10353
+    },
+    {
+      "page_number": 12,
+      "char_start": 10368,
+      "char_end": 11251
+    },
+    {
+      "page_number": 13,
+      "char_start": 11266,
+      "char_end": 12448
+    }
+  ]
+}

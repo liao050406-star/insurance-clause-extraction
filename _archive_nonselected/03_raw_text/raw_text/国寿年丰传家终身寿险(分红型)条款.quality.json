@@ -1,0 +1,14 @@
+{
+  "source_file": "国寿年丰传家终身寿险(分红型)条款.pdf",
+  "source_sha256": "83cc386cc5363e6e94c5618c7f3d7d858b245542fccc2731933f065d06c7247a",
+  "status": "ok",
+  "page_count": 10,
+  "total_raw_chars": 11202,
+  "total_clean_chars": 11112,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 10
+  },
+  "removed_repeating_margin_lines": [],
+  "warnings": []
+}

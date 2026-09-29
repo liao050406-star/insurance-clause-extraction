@@ -1,0 +1,63 @@
+{
+  "source_file": "泰康乐增福（尊享版）终身寿险（分红型）条款.pdf",
+  "source_sha256": "762acb5c9454f87dc025b6ec770bf70d569742f84b1fad1e54f985492dea2095",
+  "canonical_text_sha256": "b624f8d48aa18a46ae5f45195290a7a486c5411494e21a88c6b7d1827d1d8770",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 754
+    },
+    {
+      "page_number": 2,
+      "char_start": 768,
+      "char_end": 1210
+    },
+    {
+      "page_number": 3,
+      "char_start": 1224,
+      "char_end": 2025
+    },
+    {
+      "page_number": 4,
+      "char_start": 2039,
+      "char_end": 3126
+    },
+    {
+      "page_number": 5,
+      "char_start": 3140,
+      "char_end": 4399
+    },
+    {
+      "page_number": 6,
+      "char_start": 4413,
+      "char_end": 5745
+    },
+    {
+      "page_number": 7,
+      "char_start": 5759,
+      "char_end": 7014
+    },
+    {
+      "page_number": 8,
+      "char_start": 7028,
+      "char_end": 8019
+    },
+    {
+      "page_number": 9,
+      "char_start": 8033,
+      "char_end": 9556
+    },
+    {
+      "page_number": 10,
+      "char_start": 9571,
+      "char_end": 10876
+    },
+    {
+      "page_number": 11,
+      "char_start": 10891,
+      "char_end": 11121
+    }
+  ]
+}

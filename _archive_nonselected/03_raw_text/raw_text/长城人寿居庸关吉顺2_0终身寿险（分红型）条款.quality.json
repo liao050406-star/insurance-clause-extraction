@@ -1,0 +1,14 @@
+{
+  "source_file": "长城人寿居庸关吉顺2_0终身寿险（分红型）条款.pdf",
+  "source_sha256": "3c3297e870fdbc9b190915420f86bea8e37577e0f82733d2ff8c9d5b7a832d7a",
+  "status": "ok",
+  "page_count": 17,
+  "total_raw_chars": 14570,
+  "total_clean_chars": 14563,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 17
+  },
+  "removed_repeating_margin_lines": [],
+  "warnings": []
+}

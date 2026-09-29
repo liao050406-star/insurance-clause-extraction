@@ -1,0 +1,91 @@
+{
+  "status": "pass",
+  "validated_documents": 3,
+  "schema_validation": [
+    {
+      "result_file": "东方嘉富东方尊4.0_v1.json",
+      "source_text_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.clean.txt",
+      "schema_errors": [],
+      "field_count": 31,
+      "fields_with_own_source_key": 2,
+      "source_coverage": 0.0645,
+      "quote_checks": {
+        "责任名称逐字出现": [
+          {
+            "责任名称": "身故或全残保险金",
+            "matched": true
+          }
+        ],
+        "免责原文逐字出现": false
+      }
+    },
+    {
+      "result_file": "爱心人寿安心盈_v1.json",
+      "source_text_file": "爱心人寿安心盈终身寿险（分红型）条款.clean.txt",
+      "schema_errors": [],
+      "field_count": 31,
+      "fields_with_own_source_key": 2,
+      "source_coverage": 0.0645,
+      "quote_checks": {
+        "责任名称逐字出现": [
+          {
+            "责任名称": "身故或全残保险金",
+            "matched": true
+          }
+        ],
+        "免责原文逐字出现": false
+      }
+    },
+    {
+      "result_file": "瑞众红上红_v1.json",
+      "source_text_file": "1.瑞众红上红终身寿险（分红型，鑫瑞版）保险条款_1776352755070.clean.txt",
+      "schema_errors": [],
+      "field_count": 43,
+      "fields_with_own_source_key": 3,
+      "source_coverage": 0.0698,
+      "quote_checks": {
+        "责任名称逐字出现": [
+          {
+            "责任名称": "身故保险金",
+            "matched": true
+          },
+          {
+            "责任名称": "全残保险金",
+            "matched": true
+          }
+        ],
+        "免责原文逐字出现": false
+      }
+    }
+  ],
+  "source_audit": {
+    "all_fields_have_source": false,
+    "total_fields": 105,
+    "fields_with_own_source_key": 7,
+    "coverage": 0.0667,
+    "missing_scope": [
+      "产品信息全部字段",
+      "保险责任中除出处外的字段",
+      "责任免除中除出处外的字段",
+      "其他免责提示"
+    ],
+    "existing_grounding": [
+      "保险责任.出处（记录级）",
+      "责任免除.出处（记录级）",
+      "责任免除.原文（完整摘录）"
+    ],
+    "gold_support": [
+      "08_gold_csv对比/gold.csv 中每行已有 source_article",
+      "08_gold_csv对比/gold.csv 中每行已有 source_text"
+    ]
+  },
+  "recommended_validation_rules": [
+    "每个非null字段保存 value、source_article、source_quote；null字段source_article和source_quote均为null",
+    "source_quote按NFKC和空白归一化后必须是对应clean.txt的连续子串",
+    "source_article必须能在sections.json中唯一定位，且source_quote位于该条款字符区间",
+    "责任名称和责任免除原文执行严格逐字匹配；不得做语义模糊匹配",
+    "数值字段须由source_quote中的数字和单位换算得到，并记录换算规则",
+    "枚举、类型、比例范围、金额和天数单位继续执行现有schema校验",
+    "条款切分异常时禁止通过校验，改用完整clean.txt并标记人工复核"
+  ]
+}

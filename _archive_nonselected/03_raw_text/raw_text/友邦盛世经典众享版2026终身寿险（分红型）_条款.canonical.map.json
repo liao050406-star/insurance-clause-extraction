@@ -1,0 +1,43 @@
+{
+  "source_file": "友邦盛世经典众享版2026终身寿险（分红型）_条款.pdf",
+  "source_sha256": "72d53419392d6ec556a0213bc785731f83935044394fab1a3eb54ad98a37c3ec",
+  "canonical_text_sha256": "e3ae586f15db3612e5969f1c10b36c4fe72f5c733e11e555262e038bf5c0b36b",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 1117
+    },
+    {
+      "page_number": 2,
+      "char_start": 1131,
+      "char_end": 2572
+    },
+    {
+      "page_number": 3,
+      "char_start": 2586,
+      "char_end": 3903
+    },
+    {
+      "page_number": 4,
+      "char_start": 3917,
+      "char_end": 5504
+    },
+    {
+      "page_number": 5,
+      "char_start": 5518,
+      "char_end": 6739
+    },
+    {
+      "page_number": 6,
+      "char_start": 6753,
+      "char_end": 8233
+    },
+    {
+      "page_number": 7,
+      "char_start": 8247,
+      "char_end": 9605
+    }
+  ]
+}

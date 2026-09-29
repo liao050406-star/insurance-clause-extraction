@@ -1,0 +1,63 @@
+{
+  "source_file": "阳光人寿鑫壹号终身寿险（分红型）条款.pdf",
+  "source_sha256": "475cdb17eb5de6ccb3a7b7f5326f01807a88cc3aaa9a2201133920d0f5c6d65a",
+  "canonical_text_sha256": "557ca2824851e70165361de6a94f2e70867bd1b65d32b31b7f5dbf7303f5d2be",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 1399
+    },
+    {
+      "page_number": 2,
+      "char_start": 1413,
+      "char_end": 2149
+    },
+    {
+      "page_number": 3,
+      "char_start": 2163,
+      "char_end": 3199
+    },
+    {
+      "page_number": 4,
+      "char_start": 3213,
+      "char_end": 4395
+    },
+    {
+      "page_number": 5,
+      "char_start": 4409,
+      "char_end": 5518
+    },
+    {
+      "page_number": 6,
+      "char_start": 5532,
+      "char_end": 6723
+    },
+    {
+      "page_number": 7,
+      "char_start": 6737,
+      "char_end": 7915
+    },
+    {
+      "page_number": 8,
+      "char_start": 7929,
+      "char_end": 8917
+    },
+    {
+      "page_number": 9,
+      "char_start": 8931,
+      "char_end": 10016
+    },
+    {
+      "page_number": 10,
+      "char_start": 10031,
+      "char_end": 11164
+    },
+    {
+      "page_number": 11,
+      "char_start": 11179,
+      "char_end": 11479
+    }
+  ]
+}

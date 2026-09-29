@@ -1,0 +1,43 @@
+{
+  "source_file": "自选-新华人寿《E增福优享版终身寿险（互联网）》.pdf",
+  "source_sha256": "8c881cb4370f9fd5f41c2988d7ee12ca09eefcf810bdc38b56ae4f7f8f7b5480",
+  "canonical_text_sha256": "a8ff65f05b4afd2b195147383eccfd6be1cf903391d4a735c592711d339906cf",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 1229
+    },
+    {
+      "page_number": 2,
+      "char_start": 1243,
+      "char_end": 2490
+    },
+    {
+      "page_number": 3,
+      "char_start": 2504,
+      "char_end": 3759
+    },
+    {
+      "page_number": 4,
+      "char_start": 3773,
+      "char_end": 4998
+    },
+    {
+      "page_number": 5,
+      "char_start": 5012,
+      "char_end": 6209
+    },
+    {
+      "page_number": 6,
+      "char_start": 6223,
+      "char_end": 7439
+    },
+    {
+      "page_number": 7,
+      "char_start": 7453,
+      "char_end": 8590
+    }
+  ]
+}

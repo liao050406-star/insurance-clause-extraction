@@ -1,0 +1,14 @@
+{
+  "source_file": "平安盛世金越（尊享版26Ⅱ）终身寿险（分红型）_条款.pdf",
+  "source_sha256": "c9415ecac40a4d880f5f86316858e99e336d463578239753385db0a8fab7e26a",
+  "status": "ok",
+  "page_count": 15,
+  "total_raw_chars": 16240,
+  "total_clean_chars": 16882,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 15
+  },
+  "removed_repeating_margin_lines": [],
+  "warnings": []
+}

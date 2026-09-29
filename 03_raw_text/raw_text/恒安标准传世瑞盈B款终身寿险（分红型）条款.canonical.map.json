@@ -1,0 +1,48 @@
+{
+  "source_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.pdf",
+  "source_sha256": "414a925a20ef620211b2178b823f5f933d152f615632e114015fca70d01e020c",
+  "canonical_text_sha256": "4235a9e5e0603ccfa42ea56d1cc890009ad967028f0d17b3c592a60445c402d5",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 4571
+    },
+    {
+      "page_number": 2,
+      "char_start": 4585,
+      "char_end": 5917
+    },
+    {
+      "page_number": 3,
+      "char_start": 5931,
+      "char_end": 7121
+    },
+    {
+      "page_number": 4,
+      "char_start": 7135,
+      "char_end": 8547
+    },
+    {
+      "page_number": 5,
+      "char_start": 8561,
+      "char_end": 10054
+    },
+    {
+      "page_number": 6,
+      "char_start": 10068,
+      "char_end": 11519
+    },
+    {
+      "page_number": 7,
+      "char_start": 11533,
+      "char_end": 12913
+    },
+    {
+      "page_number": 8,
+      "char_start": 12927,
+      "char_end": 13209
+    }
+  ]
+}

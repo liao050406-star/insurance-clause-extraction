@@ -1,0 +1,16 @@
+{
+  "source_file": "信泰永爱传承（2026）A款终身寿险条款.pdf",
+  "source_sha256": "3a34900f7b75ebbf8d8eace53c24914dabac75dc6b856e4fdc283cfee5d48a7b",
+  "status": "ok",
+  "page_count": 13,
+  "total_raw_chars": 13475,
+  "total_clean_chars": 13833,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 13
+  },
+  "removed_repeating_margin_lines": [
+    "- # -"
+  ],
+  "warnings": []
+}

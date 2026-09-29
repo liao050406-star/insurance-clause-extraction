@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-24T00:00:00+08:00",
+  "title": "Design System: 条款审计台",
+  "extensions": {
+    "colorMeta": {
+      "insurance-ink": { "role": "primary", "displayName": "深保险墨蓝", "canonical": "#0b1f3a", "tonalRamp": ["#07111f", "#0b1f3a", "#153354", "#2c4b6b", "#526d88", "#8094a8", "#b4c0ca", "#e7ebee"] },
+      "secondary-ink": { "role": "secondary", "displayName": "次级审计蓝", "canonical": "#183b63", "tonalRamp": ["#0c1d31", "#183b63", "#285886", "#46739b", "#6d92b3", "#99b1c8", "#c5d1dc", "#edf1f5"] },
+      "paper": { "role": "neutral", "displayName": "冷纸底", "canonical": "#f7f8f6", "tonalRamp": ["#242624", "#444744", "#666a66", "#898d89", "#adb0ad", "#ced0ce", "#e6e8e5", "#f7f8f6"] },
+      "sheet": { "role": "neutral", "displayName": "白色表单纸", "canonical": "#ffffff", "tonalRamp": ["#262626", "#474747", "#696969", "#8c8c8c", "#b0b0b0", "#d1d1d1", "#ebebeb", "#ffffff"] },
+      "cool-line": { "role": "neutral", "displayName": "冷灰表线", "canonical": "#cbd4dc", "tonalRamp": ["#202326", "#3d4247", "#5c6369", "#7d858c", "#9fa7ae", "#c0c8cf", "#dbe0e5", "#f1f4f6"] },
+      "muted-copy": { "role": "neutral", "displayName": "灰蓝说明文字", "canonical": "#5d6b78", "tonalRamp": ["#16191c", "#2a3036", "#414a53", "#5d6b78", "#7c8995", "#a2abb4", "#cbd0d5", "#eff1f3"] },
+      "evidence-marker": { "role": "primary", "displayName": "证据标记黄", "canonical": "#f2c94c", "tonalRamp": ["#292009", "#4f3d0e", "#765b15", "#9d7b21", "#c39e31", "#e4c45c", "#f2df9e", "#fbf5dc"] },
+      "verified": { "role": "secondary", "displayName": "核验绿", "canonical": "#138a63", "tonalRamp": ["#06251b", "#094834", "#0d6c4d", "#138a63", "#3ba27f", "#72bda2", "#add8c8", "#e4f2ed"] },
+      "caution": { "role": "tertiary", "displayName": "审慎棕红", "canonical": "#a14d2e", "tonalRamp": ["#2d1209", "#552413", "#7b371f", "#a14d2e", "#bd6d4e", "#d5967d", "#e9c2b3", "#f8ebe6"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "首屏命题", "purpose": "首屏唯一的超大标题与黄色批注短语。" },
+      "headline": { "displayName": "章节标题", "purpose": "实质差异和三模型实验等主章节。" },
+      "title": { "displayName": "工作区标题", "purpose": "矩阵、模型和证据层的局部标题。" },
+      "body": { "displayName": "审计正文", "purpose": "解释、数据值与条款原文。" },
+      "label": { "displayName": "索引标签", "purpose": "字段分组、状态与控件标签。" }
+    },
+    "shadows": [
+      { "name": "workbench-ambient", "value": "0 18px 45px rgba(11,31,58,.12)", "purpose": "验证条与字段矩阵的环境阴影。" },
+      { "name": "evidence-drawer", "value": "-20px 0 45px rgba(11,31,58,.18)", "purpose": "右侧证据抽屉的方向性阴影。" },
+      { "name": "verified-halo", "value": "0 0 0 4px rgba(19,138,99,.13)", "purpose": "已核验状态点的轻量外环。" }
+    ],
+    "motion": [
+      { "name": "document-scroll", "value": "smooth", "purpose": "锚点平滑移动；减少动态偏好下关闭。" }
+    ],
+    "breakpoints": [
+      { "name": "workspace-stack", "value": "980px" },
+      { "name": "compact-mobile", "value": "640px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Active Field Filter", "kind": "chip", "refersTo": "filter-active",
+      "description": "字段分组的当前状态，使用批注黄而非产品语义色。",
+      "html": "<button class=\"ds-filter\">全部字段</button>",
+      "css": ".ds-filter{border:0;padding:9px 11px;border-radius:4px;background:var(--marker,#f2c94c);color:var(--ink,#0b1f3a);font:700 .9rem/1.4 'Segoe UI','Microsoft YaHei',Arial,sans-serif;cursor:pointer}.ds-filter:hover{background:#f6d76f}.ds-filter:focus-visible{outline:3px solid #fff;outline-offset:2px}"
+    },
+    {
+      "name": "Field Search", "kind": "input", "refersTo": "search-field",
+      "description": "深色控制轨中的字段与内容检索框。",
+      "html": "<input class=\"ds-search\" type=\"search\" placeholder=\"如：等待期、贷款、红利\">",
+      "css": ".ds-search{width:260px;background:#142e4d;border:1px solid #365573;color:#fff;padding:12px 40px 12px 12px;font:.9rem/1.4 'Segoe UI','Microsoft YaHei',Arial,sans-serif;border-radius:4px}.ds-search::placeholder{color:#9aabba}.ds-search:hover{border-color:#6f88a1}.ds-search:focus-visible{outline:3px solid #f2c94c;outline-offset:2px}"
+    },
+    {
+      "name": "Evidence Cell", "kind": "button", "refersTo": "evidence-cell",
+      "description": "矩阵中的整格可点击字段值，负责打开来源证据。",
+      "html": "<button class=\"ds-cell\"><strong>90</strong> 天</button>",
+      "css": ".ds-cell{display:block;width:210px;min-height:88px;text-align:left;border:1px solid #cbd4dc;background:#fff;padding:15px 14px;color:#243647;font:.84rem/1.48 'Segoe UI','Microsoft YaHei',Arial,sans-serif;cursor:pointer}.ds-cell strong{font-size:1.28rem;color:#0b1f3a}.ds-cell:hover,.ds-cell:focus-visible{background:#fff8d8;outline:3px solid #f2c94c;outline-offset:-3px}"
+    },
+    {
+      "name": "Finding Row", "kind": "custom",
+      "description": "以连续审阅清单呈现有证据约束的实质差异。",
+      "html": "<article class=\"ds-finding\"><span>01</span><h3>等待期差异</h3><p>差异结论与字段共同呈现。</p></article>",
+      "css": ".ds-finding{display:grid;grid-template-columns:44px 180px minmax(0,1fr);gap:20px;align-items:start;padding:26px 0;border-top:1px solid #aebac4;color:#0b1f3a;font-family:'Segoe UI','Microsoft YaHei',Arial,sans-serif}.ds-finding span{width:40px;height:40px;display:grid;place-items:center;background:#f2c94c;font-weight:800}.ds-finding h3,.ds-finding p{margin:0}.ds-finding p{color:#425361}"
+    },
+    {
+      "name": "Model Status Card", "kind": "card", "refersTo": "model-card",
+      "description": "显示模型身份与实验状态，不承载产品排名。",
+      "html": "<article class=\"ds-model\"><span>A</span><div><h3>codex_gpt5</h3><p>5份结果已生成 · 65项结构链路通过</p></div><b>开发复核</b></article>",
+      "css": ".ds-model{width:340px;min-height:140px;padding:22px;display:grid;grid-template-columns:52px 1fr;gap:14px;position:relative;background:#fff;border:1px solid #afbbc6;color:#0b1f3a;font-family:'Segoe UI','Microsoft YaHei',Arial,sans-serif}.ds-model>span{width:44px;height:44px;display:grid;place-items:center;background:#0b1f3a;color:#fff;font-weight:800;font-size:1.15rem}.ds-model h3{margin:0 0 7px}.ds-model p{margin:0;color:#5d6b78;font-size:.88rem}.ds-model b{position:absolute;right:14px;bottom:12px;color:#138a63;font-size:.75rem}"
+    }
+  ],
+  "narrative": {
+    "northStar": "证据桌面",
+    "overview": "条款审计台把保险核保案卷、批注纸和证据索引转译为一个高密度数字工作面。它不是营销式产品展板，而是一套让教师和评阅者快速定位字段、核对出处、辨认验证边界的审计界面。深保险蓝建立秩序与可信度，纸张色承载长时间阅读，黄色像实体荧光笔一样只出现在确认、定位和当前状态上。\n\n界面采用 Operate 模式：控制轨、矩阵、证据抽屉和实验状态都优先服务扫描效率。视觉不得制造产品优劣暗示，重点始终落在字段差异、证据和实验身份上。",
+    "keyCharacteristics": ["高密度、可扫描的横向字段矩阵。", "深蓝控制面与白色数据面的明确分工。", "黄色批注式高亮，少而有力。", "方正、克制、近似案卷和审阅表格的形态。", "桌面、投影与移动端均保留证据追溯能力。"],
+    "rules": [
+      { "name": "The Marker Discipline Rule", "body": "黄色只用于当前状态、定位和证据提示，不扩展成大面积装饰色。", "section": "colors" },
+      { "name": "The Neutral Product Rule", "body": "五款产品共享同一套表头、单元格和状态色，不分配专属品牌色或胜负色。", "section": "colors" },
+      { "name": "The Matrix First Rule", "body": "响应式改造必须保留字段与五款产品的交叉比较关系。", "section": "layout" },
+      { "name": "The Flat-by-Default Rule", "body": "只有覆盖界面或承担主工作面的元素允许出现阴影。", "section": "elevation" }
+    ],
+    "dos": ["Do 让字段值、条款号和原文形成连续证据链。", "Do 用黄色标示当前状态、焦点和证据定位，保持其稀缺性。", "Do 并列展示“65项结构链路通过”“Gold 哈希一致”和“当前结果非盲测”。"],
+    "donts": ["Don't 用绿色、奖牌、排名或品牌色暗示某款产品更优。", "Don't 把开发复核的 65/65 写成模型盲测准确率。", "Don't 把 null 视觉化为 0、失败或缺陷。"]
+  }
+}

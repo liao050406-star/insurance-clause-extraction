@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "model_id": "claude_sonnet",
+    "product_id": "cpic_xinxiangban_2025",
+    "product_name": "太保鑫相伴（2025）终身寿险",
+    "prompt_version": "v3_gold_schema",
+    "independent_blind_test": true
+  },
+  "fields": {
+    "insured_age_range": {
+      "value": "女性被保险人:0周岁(须出生满30日)至75周岁;男性被保险人:0周岁(须出生满30日)至71周岁",
+      "source_clause": "1.3 投保范围",
+      "source_text": "本合同接受的被保险人的投保年龄范围为 0 周岁(须出生满 30 日)至 75 周岁,且须符合投保当时我们的规定。其中女性被保险人的投保年龄范围为 0 周岁(须出生满 30 日)至 75 周岁,男性被保险人的投保年龄范围为 0 周岁(须出生满 30 日)至 71 周岁。"
+    },
+    "waiting_period": {
+      "value": 90,
+      "source_clause": "2.5 保险责任",
+      "source_text": "若被保险人在本合同生效或最后一次复效(以较迟者为准)之日起 90 日内因意外伤害以外的原因导致身故,我们按您根据本合同约定已支付的保险费给付身故保险金,本合同终止。"
+    },
+    "coverage_type": {
+      "value": ["身故保险金", "特定客运交通工具意外身故保险金"],
+      "source_clause": "2.5 保险责任",
+      "source_text": "身故保险金"
+    },
+    "benefit_before_payment_end": {
+      "value": {
+        "under_18": "max(已支付的保险费, 现金价值)",
+        "adult_before_payment_end": "max(已支付的保险费 × 到达年龄比例, 现金价值)"
+      },
+      "source_clause": "2.5 保险责任",
+      "source_text": "(1)被保险人未满 18 周岁的,我们按以下两项中金额较大者给付身故保险金,本合同终止:1被保险人身故时您根据本合同约定已支付的保险费;2被保险人身故时本合同的现金价值。(2)被保险人年满 18 周岁且处于交费期间届满后的首个合同生效日对应日(不含)之前,我们按以下两项中金额较大者给付身故保险金,本合同终止:1被保险人身故时您根据本合同约定已支付的保险费乘以被保险人身故时的到达年龄所对应的比例;2被保险人身故时本合同的现金价值。"
+    },
+    "benefit_after_payment_end": {
+      "value": {
+        "adult_after_payment_end": "max(已支付的保险费 × 到达年龄比例, 现金价值, 有效保险金额)"
+      },
+      "source_clause": "2.5 保险责任",
+      "source_text": "(3)被保险人年满 18 周岁且处于交费期间届满后的首个合同生效日对应日(含)之后,我们按以下三项中金额较大者给付身故保险金,本合同终止:1被保险人身故时您根据本合同约定已支付的保险费乘以被保险人身故时的到达年龄所对应的比例;2被保险人身故时本合同的现金价值;3被保险人身故时本合同的有效保险金额。"
+    },
+    "age_benefit_ratio": {
+      "value": {
+        "40周岁及以下": 1.6,
+        "41-60周岁": 1.4,
+        "61周岁及以上": 1.2
+      },
+      "source_clause": "2.5 保险责任",
+      "source_text": "被保险人身故时的到达年龄对应比例 40 周岁及以下 160% 41-60 周岁 140% 61 周岁及以上 120%"
+    },
+    "guaranteed_growth_rate": {
+      "value": 0.02,
+      "source_clause": "2.2 有效保险金额",
+      "source_text": "每满 1 个保单年度,有效保险金额按约定的额度增加一次,增加额度为前一个保单年度有效保险金额的 2.0%。"
+    },
+    "effective_sum_assured_definition": {
+      "value": "本合同生效时的有效保险金额等于基本保险金额;每满1个保单年度,有效保险金额按约定的额度增加一次,增加额度为前一个保单年度有效保险金额的2.0%。",
+      "source_clause": "2.2 有效保险金额",
+      "source_text": "本合同生效时的有效保险金额等于基本保险金额。每满 1 个保单年度,有效保险金额按约定的额度增加一次,增加额度为前一个保单年度有效保险金额的 2.0%。"
+    },
+    "policy_loan": {
+      "value": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "after_free_look_period": true
+      },
+      "source_clause": "5.2 保单贷款",
+      "source_text": "在本合同有效期内,经我们审核同意后您可在犹豫期后办理保单贷款。对于以身故为保险金给付条件的保险单,您申请保单贷款必须取得被保险人的书面同意。贷款金额不得超过本合同的现金价值扣除各项欠款后余额的 80%,每次贷款期限最长不超过 6 个月,贷款金额、贷款期限及贷款利率按您与我们签订的贷款协议中的约定执行。"
+    },
+    "reduction_rule": {
+      "value": "在本合同保险期间内可申请减少基本保险金额;每年累计申请减少的基本保险金额之和不得超过本合同生效时基本保险金额的20%;基本保险金额减少后保险费不得低于规定的最低标准。",
+      "source_clause": "2.1 基本保险金额",
+      "source_text": "在本合同保险期间内,您可以向我们申请减少基本保险金额,经我们审核同意后,基本保险金额减少,我们将按减少后的基本保险金额承担保险责任,并向您退还基本保险金额减少部分对应的现金价值。您每年累计申请减少的基本保险金额之和不得超过本合同生效时基本保险金额的 20%。基本保险金额减少后,本合同保险费不低于我们规定的最低标准。"
+    },
+    "dividend_guarantee": {"value": null, "source_clause": null, "source_text": null},
+    "dividend_type": {"value": null, "source_clause": null, "source_text": null},
+    "dividend_payment_method": {"value": null, "source_clause": null, "source_text": null}
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "source_file": "爱心人寿安心盈终身寿险（分红型）条款.pdf",
+  "source_sha256": "2a9b763cf83bbeaed3fb79400c4cf32edd1b3c8f0700b5bf88576d6cf0dabd8e",
+  "status": "ok",
+  "page_count": 14,
+  "total_raw_chars": 11825,
+  "total_clean_chars": 11747,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 14
+  },
+  "removed_repeating_margin_lines": [],
+  "warnings": []
+}

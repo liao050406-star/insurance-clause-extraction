@@ -1,0 +1,16 @@
+{
+  "source_file": "泰康乐增福（尊享版）终身寿险（分红型）条款.pdf",
+  "source_sha256": "762acb5c9454f87dc025b6ec770bf70d569742f84b1fad1e54f985492dea2095",
+  "status": "ok",
+  "page_count": 11,
+  "total_raw_chars": 11135,
+  "total_clean_chars": 10966,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 11
+  },
+  "removed_repeating_margin_lines": [
+    "乐增福(尊享版)条款"
+  ],
+  "warnings": []
+}

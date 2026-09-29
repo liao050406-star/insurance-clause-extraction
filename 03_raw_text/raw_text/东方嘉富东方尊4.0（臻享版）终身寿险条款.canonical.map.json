@@ -1,0 +1,53 @@
+{
+  "source_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.pdf",
+  "source_sha256": "b7d244e3a272e447e3c7033dc5e2c798512f098de8a7ddbd004f3a22f54d085c",
+  "canonical_text_sha256": "fcc898f9d75ddeb218acd8e7a2a87b8c6c512fb02aa3ba8990f49056f64176b5",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 1660
+    },
+    {
+      "page_number": 2,
+      "char_start": 1674,
+      "char_end": 2814
+    },
+    {
+      "page_number": 3,
+      "char_start": 2828,
+      "char_end": 4242
+    },
+    {
+      "page_number": 4,
+      "char_start": 4256,
+      "char_end": 5537
+    },
+    {
+      "page_number": 5,
+      "char_start": 5551,
+      "char_end": 6556
+    },
+    {
+      "page_number": 6,
+      "char_start": 6570,
+      "char_end": 7642
+    },
+    {
+      "page_number": 7,
+      "char_start": 7656,
+      "char_end": 8837
+    },
+    {
+      "page_number": 8,
+      "char_start": 8851,
+      "char_end": 9905
+    },
+    {
+      "page_number": 9,
+      "char_start": 9919,
+      "char_end": 10704
+    }
+  ]
+}

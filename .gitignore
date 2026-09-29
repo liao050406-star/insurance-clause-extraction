@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本地部署残留：Codex 部署元数据、打包产物、登录日志
+/web/.git/
+/web/site-deploy*.tar.gz
+gh_auth.log
+
+# 系统文件
+.DS_Store
+Thumbs.db

@@ -1,0 +1,78 @@
+{
+  "source_file": "爱心人寿安心盈终身寿险（分红型）条款.pdf",
+  "source_sha256": "2a9b763cf83bbeaed3fb79400c4cf32edd1b3c8f0700b5bf88576d6cf0dabd8e",
+  "canonical_text_sha256": "bb2d09d815869eb01c8d3de92069a0bf147fec028da6e8126c4b76ff1f127c02",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 538
+    },
+    {
+      "page_number": 2,
+      "char_start": 552,
+      "char_end": 1297
+    },
+    {
+      "page_number": 3,
+      "char_start": 1311,
+      "char_end": 1768
+    },
+    {
+      "page_number": 4,
+      "char_start": 1782,
+      "char_end": 2826
+    },
+    {
+      "page_number": 5,
+      "char_start": 2840,
+      "char_end": 3833
+    },
+    {
+      "page_number": 6,
+      "char_start": 3847,
+      "char_end": 4677
+    },
+    {
+      "page_number": 7,
+      "char_start": 4691,
+      "char_end": 5576
+    },
+    {
+      "page_number": 8,
+      "char_start": 5590,
+      "char_end": 6465
+    },
+    {
+      "page_number": 9,
+      "char_start": 6479,
+      "char_end": 7444
+    },
+    {
+      "page_number": 10,
+      "char_start": 7459,
+      "char_end": 8303
+    },
+    {
+      "page_number": 11,
+      "char_start": 8318,
+      "char_end": 9376
+    },
+    {
+      "page_number": 12,
+      "char_start": 9391,
+      "char_end": 10286
+    },
+    {
+      "page_number": 13,
+      "char_start": 10301,
+      "char_end": 11195
+    },
+    {
+      "page_number": 14,
+      "char_start": 11210,
+      "char_end": 11947
+    }
+  ]
+}

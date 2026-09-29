@@ -1,0 +1,88 @@
+{
+  "source_file": "瑞泰鸿利传世（臻享版）终身寿险（分红型）条款.pdf",
+  "source_sha256": "c009ad3d49883ac7ff85cad4dcdbe199d6d4035f76f181fd05c07065f4527537",
+  "canonical_text_sha256": "6809775d690d85b0600e2a60462ef947b593b5f9b73bd9514dcd24b25b4e25e7",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 1828
+    },
+    {
+      "page_number": 2,
+      "char_start": 1842,
+      "char_end": 2290
+    },
+    {
+      "page_number": 3,
+      "char_start": 2304,
+      "char_end": 3362
+    },
+    {
+      "page_number": 4,
+      "char_start": 3376,
+      "char_end": 4357
+    },
+    {
+      "page_number": 5,
+      "char_start": 4371,
+      "char_end": 5312
+    },
+    {
+      "page_number": 6,
+      "char_start": 5326,
+      "char_end": 6366
+    },
+    {
+      "page_number": 7,
+      "char_start": 6380,
+      "char_end": 7535
+    },
+    {
+      "page_number": 8,
+      "char_start": 7549,
+      "char_end": 8432
+    },
+    {
+      "page_number": 9,
+      "char_start": 8446,
+      "char_end": 9472
+    },
+    {
+      "page_number": 10,
+      "char_start": 9487,
+      "char_end": 10509
+    },
+    {
+      "page_number": 11,
+      "char_start": 10524,
+      "char_end": 11651
+    },
+    {
+      "page_number": 12,
+      "char_start": 11666,
+      "char_end": 12717
+    },
+    {
+      "page_number": 13,
+      "char_start": 12732,
+      "char_end": 13773
+    },
+    {
+      "page_number": 14,
+      "char_start": 13788,
+      "char_end": 14737
+    },
+    {
+      "page_number": 15,
+      "char_start": 14752,
+      "char_end": 14877
+    },
+    {
+      "page_number": 16,
+      "char_start": 14892,
+      "char_end": 15653
+    }
+  ]
+}

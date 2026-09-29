@@ -1,0 +1,768 @@
+{
+  "generated_at": "2026-09-29T16:12:18+08:00",
+  "gold_file": "08_gold_csv对比\\gold.csv",
+  "gold_sha256_before": "e76ddd93c670b1581d686af81228273319b09b0a7a2f19ff1fa15cab38959942",
+  "gold_sha256_after": "e76ddd93c670b1581d686af81228273319b09b0a7a2f19ff1fa15cab38959942",
+  "gold_unchanged": true,
+  "prediction_dir": "06_result_json\\extracted",
+  "summary": {
+    "gold_fields": 65,
+    "correct": 34,
+    "incorrect": 1,
+    "missing_product": 0,
+    "missing_field": 30,
+    "compared": 35,
+    "accuracy": 0.9714,
+    "source_applicable": 53,
+    "source_matched": 34
+  },
+  "results": [
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "insured_age_range",
+      "gold_value": "0周岁（须出生满28日）至70周岁",
+      "predicted_value": "0周岁(须出生满28日)至70周岁",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "waiting_period",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "canonical_file": null
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "coverage_type",
+      "gold_value": "身故或全残保险金",
+      "predicted_value": "身故或全残保险金",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "benefit_before_payment_end",
+      "gold_value": {
+        "under_18": "max(累计已交保险费,现金价值)",
+        "adult_before_payment_end": "max(累计已交保险费×年龄给付比例,现金价值)"
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_strict",
+      "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "benefit_after_payment_end",
+      "gold_value": "max(累计已交保险费×年龄给付比例,现金价值,当年度保险金额)",
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_strict",
+      "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "age_benefit_ratio",
+      "gold_value": {
+        "0-17": 1.0,
+        "18-40": 1.6,
+        "41-60": 1.4,
+        "61+": 1.2
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_strict",
+      "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "guaranteed_growth_rate",
+      "gold_value": 0.0175,
+      "predicted_value": 0.0175,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "effective_sum_assured_definition",
+      "gold_value": "首个保单年度当年度保险金额=基本保险金额；第二个保单年度起按上一保单年度保险金额×1.0175递增",
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_strict",
+      "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "policy_loan",
+      "gold_value": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "after_free_look_period": true
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_normalized",
+      "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "reduction_rule",
+      "gold_value": "第5个保单周年日（含）后可减保；每个保单年度累计减少部分对应现金价值≤累计已交全部保费20%；减后基本保额不得低于规定最低金额",
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "mismatched",
+      "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "dividend_guarantee",
+      "gold_value": false,
+      "predicted_value": false,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt"
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "dividend_type",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "canonical_file": null
+    },
+    {
+      "product_id": "fuze_zerui_xianli",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "dividend_payment_method",
+      "gold_value": [
+        "现金领取",
+        "累积生息",
+        "购买交清增额保险"
+      ],
+      "predicted_value": [
+        "现金领取",
+        "累积生息",
+        "购买交清增额保险"
+      ],
+      "result": "correct",
+      "source_result": "mismatched",
+      "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "insured_age_range",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "waiting_period",
+      "gold_value": 90,
+      "predicted_value": 90,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "coverage_type",
+      "gold_value": "身故保险金",
+      "predicted_value": "身故保险金",
+      "result": "correct",
+      "source_result": "matched_normalized",
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "benefit_before_payment_end",
+      "gold_value": {
+        "rule": "sum",
+        "part1": "max(已交付保险费×年龄给付比例,初始保险金额对应现金价值)",
+        "part2": "累计红利保险金额对应现金价值",
+        "condition": "交费期满日（含）之前身故，或身故时未满18周岁"
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_strict",
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "benefit_after_payment_end",
+      "gold_value": {
+        "rule": "sum",
+        "part1": "max(初始保险金额×1.015^(n-1),已交付保险费×年龄给付比例,初始保险金额对应现金价值)",
+        "part2": "max(累计红利保险金额×1.015^(n-1),累计红利保险金额对应现金价值)",
+        "condition": "交费期满日（不含）之后且已满18周岁"
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "mismatched",
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "age_benefit_ratio",
+      "gold_value": {
+        "0-17": 1.0,
+        "18-41": 1.6,
+        "42-61": 1.4,
+        "62+": 1.2
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_strict",
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "guaranteed_growth_rate",
+      "gold_value": 0.015,
+      "predicted_value": null,
+      "result": "incorrect",
+      "source_result": "matched_normalized",
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "effective_sum_assured_definition",
+      "gold_value": "初始保险金额+各保单年度累计已分配的红利保险金额",
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_strict",
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "policy_loan",
+      "gold_value": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "basis": "现金价值扣除各项欠款后余额"
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "mismatched",
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "reduction_rule",
+      "gold_value": "初始保险金额和累计红利保险金额同比例减少；同一保单年度累计减少初始保险金额≤合同生效时初始保险金额20%",
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_strict",
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "dividend_guarantee",
+      "gold_value": false,
+      "predicted_value": false,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "dividend_type",
+      "gold_value": [
+        "年度红利",
+        "终了红利"
+      ],
+      "predicted_value": [
+        "年度红利",
+        "终了红利"
+      ],
+      "result": "correct",
+      "source_result": "matched_strict",
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt"
+    },
+    {
+      "product_id": "hengan_chuanshi_ruiying_b",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "dividend_payment_method",
+      "gold_value": {
+        "年度红利": "增加红利保险金额并计入以后年度红利计算基数",
+        "终了红利": "合同终止时以现金方式支付"
+      },
+      "predicted_value": {
+        "年度红利": "增加红利保险金额并计入以后年度红利计算基数",
+        "终了红利": "合同终止时以现金方式支付"
+      },
+      "result": "correct",
+      "source_result": "matched_strict",
+      "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "field_name": "insured_age_range",
+      "gold_value": "女性：0周岁（须出生满30日）至75周岁；男性：0周岁（须出生满30日）至71周岁",
+      "predicted_value": "女性0周岁(须出生满30日)至75周岁；男性0周岁(须出生满30日)至71周岁",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "canonical_file": "自选-太保鑫相伴（2025）终身寿险.canonical.txt"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "field_name": "waiting_period",
+      "gold_value": 90,
+      "predicted_value": 90,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "canonical_file": "自选-太保鑫相伴（2025）终身寿险.canonical.txt"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "field_name": "coverage_type",
+      "gold_value": [
+        "身故保险金",
+        "特定客运交通工具意外身故保险金"
+      ],
+      "predicted_value": [
+        "身故保险金",
+        "特定客运交通工具意外身故保险金"
+      ],
+      "result": "correct",
+      "source_result": "mismatched",
+      "canonical_file": "自选-太保鑫相伴（2025）终身寿险.canonical.txt"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "field_name": "benefit_before_payment_end",
+      "gold_value": {
+        "under_18": "max(已支付保险费,现金价值)",
+        "adult_before_payment_end": "max(已支付保险费×年龄比例,现金价值)"
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "mismatched",
+      "canonical_file": "自选-太保鑫相伴（2025）终身寿险.canonical.txt"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "field_name": "benefit_after_payment_end",
+      "gold_value": "max(已支付保险费×年龄比例,现金价值,有效保险金额)",
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "mismatched",
+      "canonical_file": "自选-太保鑫相伴（2025）终身寿险.canonical.txt"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "field_name": "age_benefit_ratio",
+      "gold_value": {
+        "<=40": 1.6,
+        "41-60": 1.4,
+        "61+": 1.2
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_strict",
+      "canonical_file": "自选-太保鑫相伴（2025）终身寿险.canonical.txt"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "field_name": "guaranteed_growth_rate",
+      "gold_value": 0.02,
+      "predicted_value": 0.02,
+      "result": "correct",
+      "source_result": "mismatched",
+      "canonical_file": "自选-太保鑫相伴（2025）终身寿险.canonical.txt"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "field_name": "effective_sum_assured_definition",
+      "gold_value": "生效时有效保险金额=基本保险金额；以后每满1个保单年度按前一年度有效保险金额×1.02递增",
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "mismatched",
+      "canonical_file": "自选-太保鑫相伴（2025）终身寿险.canonical.txt"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "field_name": "policy_loan",
+      "gold_value": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "after_free_look_period": true,
+        "basis": "现金价值扣除各项欠款后余额"
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_normalized",
+      "canonical_file": "自选-太保鑫相伴（2025）终身寿险.canonical.txt"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "field_name": "reduction_rule",
+      "gold_value": "每年累计减少基本保险金额≤合同生效时基本保险金额20%；减保后保费不得低于规定最低标准",
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_strict",
+      "canonical_file": "自选-太保鑫相伴（2025）终身寿险.canonical.txt"
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "field_name": "dividend_guarantee",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "canonical_file": null
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "field_name": "dividend_type",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "canonical_file": null
+    },
+    {
+      "product_id": "cpic_xinxiangban_2025",
+      "product_name": "太保鑫相伴（2025）终身寿险",
+      "field_name": "dividend_payment_method",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "canonical_file": null
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "field_name": "insured_age_range",
+      "gold_value": "0周岁（须出生满30日）至70周岁",
+      "predicted_value": "0周岁(须出生满30日)至70周岁",
+      "result": "correct",
+      "source_result": "mismatched",
+      "canonical_file": "自选-新华人寿《E增福优享版终身寿险（互联网）》.canonical.txt"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "field_name": "waiting_period",
+      "gold_value": 180,
+      "predicted_value": 180,
+      "result": "correct",
+      "source_result": "mismatched",
+      "canonical_file": "自选-新华人寿《E增福优享版终身寿险（互联网）》.canonical.txt"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "field_name": "coverage_type",
+      "gold_value": "身故或身体全残保险金",
+      "predicted_value": "身故或身体全残保险金",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "canonical_file": "自选-新华人寿《E增福优享版终身寿险（互联网）》.canonical.txt"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "field_name": "benefit_before_payment_end",
+      "gold_value": {
+        "under_18": "max(实际交纳保险费,现金价值)",
+        "adult_before_payment_end": "max(实际交纳保险费×给付系数,现金价值)"
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_strict",
+      "canonical_file": "自选-新华人寿《E增福优享版终身寿险（互联网）》.canonical.txt"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "field_name": "benefit_after_payment_end",
+      "gold_value": "max(实际交纳保险费×给付系数,现金价值,基本保险金额×1.02^(n-1))",
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_normalized",
+      "canonical_file": "自选-新华人寿《E增福优享版终身寿险（互联网）》.canonical.txt"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "field_name": "age_benefit_ratio",
+      "gold_value": {
+        "18-40": 1.6,
+        "41-60": 1.4,
+        "61+": 1.2
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "mismatched",
+      "canonical_file": "自选-新华人寿《E增福优享版终身寿险（互联网）》.canonical.txt"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "field_name": "guaranteed_growth_rate",
+      "gold_value": 0.02,
+      "predicted_value": 0.02,
+      "result": "correct",
+      "source_result": "matched_normalized",
+      "canonical_file": "自选-新华人寿《E增福优享版终身寿险（互联网）》.canonical.txt"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "field_name": "effective_sum_assured_definition",
+      "gold_value": "保险金额根据基本保险金额及第五条保险责任计算；交费期满后的首个保单周年日起第三项按基本保险金额×1.02^(n-1)计算",
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_strict",
+      "canonical_file": "自选-新华人寿《E增福优享版终身寿险（互联网）》.canonical.txt"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "field_name": "policy_loan",
+      "gold_value": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "after_free_look_period": true,
+        "basis": "申请贷款时现金价值的80%扣除各项欠款后的余额"
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "mismatched",
+      "canonical_file": "自选-新华人寿《E增福优享版终身寿险（互联网）》.canonical.txt"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "field_name": "reduction_rule",
+      "gold_value": "每个保单年度累计减少基本保险金额≤合同生效时基本保险金额20%；减保后保费不得低于最低标准",
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "mismatched",
+      "canonical_file": "自选-新华人寿《E增福优享版终身寿险（互联网）》.canonical.txt"
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "field_name": "dividend_guarantee",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "canonical_file": null
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "field_name": "dividend_type",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "canonical_file": null
+    },
+    {
+      "product_id": "nci_ezengfu_youxiang",
+      "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+      "field_name": "dividend_payment_method",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "canonical_file": null
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "insured_age_range",
+      "gold_value": "0周岁（须出生满28日）至75周岁",
+      "predicted_value": "0周岁（须出生满28日）至75周岁",
+      "result": "correct",
+      "source_result": "mismatched",
+      "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "waiting_period",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "canonical_file": null
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "coverage_type",
+      "gold_value": "身故或全残保险金",
+      "predicted_value": "身故或全残保险金",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "benefit_before_payment_end",
+      "gold_value": {
+        "under_18": "max(已支付保险费,现金价值)",
+        "adult_before_payment_end": "max(已支付保险费×年龄比例,现金价值)"
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "mismatched",
+      "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "benefit_after_payment_end",
+      "gold_value": "max(有效保险金额,已支付保险费×年龄比例,现金价值)",
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "mismatched",
+      "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "age_benefit_ratio",
+      "gold_value": {
+        "<=40": 1.6,
+        "41-60": 1.4,
+        "61+": 1.2
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "mismatched",
+      "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "guaranteed_growth_rate",
+      "gold_value": 0.02,
+      "predicted_value": 0.02,
+      "result": "correct",
+      "source_result": "matched_normalized",
+      "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "effective_sum_assured_definition",
+      "gold_value": "第一个保单年度有效保险金额=基本保险金额；第二个保单年度起=上一保单年度有效保险金额×1.02",
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_strict",
+      "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "policy_loan",
+      "gold_value": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "basis": "现金价值扣除各项欠款后余额"
+      },
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "matched_normalized",
+      "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "reduction_rule",
+      "gold_value": "第5个保单周年日起可减保；每个保单年度累计减少部分对应现金价值≤已支付实际保险费20%；减后基本保险金额不得低于规定最低限额",
+      "predicted_value": null,
+      "result": "missing_field",
+      "source_result": "mismatched",
+      "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt"
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "dividend_guarantee",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "canonical_file": null
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "dividend_type",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "canonical_file": null
+    },
+    {
+      "product_id": "dongfang_zun_4_zhenxiang",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "dividend_payment_method",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "canonical_file": null
+    }
+  ]
+}

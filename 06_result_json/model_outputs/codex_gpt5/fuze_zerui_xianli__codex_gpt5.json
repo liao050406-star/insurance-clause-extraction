@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "model_id": "codex_gpt5",
+    "product_id": "fuze_zerui_xianli",
+    "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+    "evaluation_mode": "gold_aware_development_review",
+    "independent_blind_test": false,
+    "generated_at": "2026-09-23T06:01:40.866416+00:00",
+    "warning": "本结果用于验证数据结构与报告链路，模型已接触Gold，不计入独立盲测准确率。"
+  },
+  "fields": {
+    "insured_age_range": {
+      "value": "0周岁（须出生满28日）至70周岁",
+      "source_clause": "1.3 投保范围",
+      "source_text": "本合同接受的被保险人的投保年龄范围为 0 周岁（见 11.4）（须出生满 28 日）至 70 周岁，且须符合投保当时我们的规定。"
+    },
+    "waiting_period": {
+      "value": null,
+      "source_clause": "",
+      "source_text": ""
+    },
+    "coverage_type": {
+      "value": "身故或全残保险金",
+      "source_clause": "2.1 保险责任",
+      "source_text": "身故或全残保险金"
+    },
+    "benefit_before_payment_end": {
+      "value": {
+        "under_18": "max(累计已交保险费,现金价值)",
+        "adult_before_payment_end": "max(累计已交保险费×年龄给付比例,现金价值)"
+      },
+      "source_clause": "2.1 保险责任",
+      "source_text": "若被保险人在本合同交费期满日（见 11.9）（不含）之前身故或全残的，我们按以下两项金额中的较大者给付身故或全残保险金：（1）被保险人身故或全残时本合同基本保险金额对应的累计已交保险费乘以被保险人身故或全残时的到达年龄所对应的给付比例；（2）被保险人身故或全残时本合同基本保险金额对应的现金价值。"
+    },
+    "benefit_after_payment_end": {
+      "value": "max(累计已交保险费×年龄给付比例,现金价值,当年度保险金额)",
+      "source_clause": "2.1 保险责任",
+      "source_text": "若被保险人在本合同交费期满日（含）之后身故或全残的，我们按以下三项金额中的较大者给付身故或全残保险金：（1）被保险人身故或全残时本合同基本保险金额对应的累计已交保险费乘以被保险人身故或全残时的到达年龄所对应的给付比例；（2）被保险人身故或全残时本合同基本保险金额对应的现金价值；（3）被保险人身故或全残时本合同当年度保险金额。"
+    },
+    "age_benefit_ratio": {
+      "value": {
+        "0-17": 1.0,
+        "18-40": 1.6,
+        "41-60": 1.4,
+        "61+": 1.2
+      },
+      "source_clause": "2.1 保险责任",
+      "source_text": "身故或全残时的到达年龄 给付比例 17 周岁（含）以下 100% 18-40 周岁 160% 41-60 周岁 140% 61 周岁（含）以上 120%"
+    },
+    "guaranteed_growth_rate": {
+      "value": 0.0175,
+      "source_clause": "2.1 保险责任",
+      "source_text": "从第二个保单年度起，年度保险金额每年按基本保险金额的 1.75%以年复利增加，即当年度保险金额等于上一个保单年度保险金额乘以（1+1.75%）。"
+    },
+    "effective_sum_assured_definition": {
+      "value": "首个保单年度当年度保险金额=基本保险金额；第二个保单年度起按上一保单年度保险金额×1.0175递增",
+      "source_clause": "2.1 保险责任",
+      "source_text": "本合同首个保单年度内，当年度保险金额为基本保险金额；从第二个保单年度起，年度保险金额每年按基本保险金额的 1.75%以年复利增加，即当年度保险金额等于上一个保单年度保险金额乘以（1+1.75%）。"
+    },
+    "policy_loan": {
+      "value": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "after_free_look_period": true
+      },
+      "source_clause": "6.2 保单贷款",
+      "source_text": "本合同有效且在犹豫期之后，若本合同具有现金价值，经被保险人书面同意，您可以向我们申请保单贷款，经我们同意后您可以办理保单贷款。保单贷款的最高金额不超过本合同当时所具有的现金价值的 80％，具体的贷款金额以您与我们约定为准。每次贷款期限最长不超过 6 个月。"
+    },
+    "reduction_rule": {
+      "value": "第5个保单周年日（含）后可减保；每个保单年度累计减少部分对应现金价值≤累计已交全部保费20%；减后基本保额不得低于规定最低金额",
+      "source_clause": "6.4 减少基本保险金额",
+      "source_text": "本合同有效且在本合同第五个保单周年日（含）以后，您可以书面申请减少基本保险金额，每个保单年度累计减少的基本保险金额对应的现金价值之和不得超过您已经向本公司交纳的全部保险费的 20%，每次申请减少基本保险金额后，减少后的基本保险金额不得低于申请时我们规定的最低金额。"
+    },
+    "dividend_guarantee": {
+      "value": false,
+      "source_clause": "5.1 红利分配",
+      "source_text": "本合同的红利为非保证利益，红利分配是不确定的。"
+    },
+    "dividend_type": {
+      "value": null,
+      "source_clause": "",
+      "source_text": ""
+    },
+    "dividend_payment_method": {
+      "value": [
+        "现金领取",
+        "累积生息",
+        "购买交清增额保险"
+      ],
+      "source_clause": "5.2 红利领取方式",
+      "source_text": "您在投保时可选择以下任何一种红利领取方式：（一）现金领取；（二）累积生息；（三）购买交清增额保险。"
+    }
+  }
+}

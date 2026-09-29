@@ -1,0 +1,16 @@
+{
+  "source_file": "瑞泰鸿利传世（臻享版）终身寿险（分红型）条款.pdf",
+  "source_sha256": "c009ad3d49883ac7ff85cad4dcdbe199d6d4035f76f181fd05c07065f4527537",
+  "status": "ok",
+  "page_count": 16,
+  "total_raw_chars": 15508,
+  "total_clean_chars": 15423,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 16
+  },
+  "removed_repeating_margin_lines": [
+    "#"
+  ],
+  "warnings": []
+}

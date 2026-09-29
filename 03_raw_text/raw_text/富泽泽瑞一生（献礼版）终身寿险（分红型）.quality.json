@@ -1,0 +1,14 @@
+{
+  "source_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.pdf",
+  "source_sha256": "34c60e123d242146bf213495ac18772b6d107005ed204a049a2db32058dbad15",
+  "status": "ok",
+  "page_count": 16,
+  "total_raw_chars": 16491,
+  "total_clean_chars": 16403,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 16
+  },
+  "removed_repeating_margin_lines": [],
+  "warnings": []
+}

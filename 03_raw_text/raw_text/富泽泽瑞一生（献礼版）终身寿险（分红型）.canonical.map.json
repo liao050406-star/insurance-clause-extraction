@@ -1,0 +1,88 @@
+{
+  "source_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.pdf",
+  "source_sha256": "34c60e123d242146bf213495ac18772b6d107005ed204a049a2db32058dbad15",
+  "canonical_text_sha256": "2f843490919e45f92d9e00b6f5654d1b487119ed6aff9fe9a3e2b7b071e91e3f",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 1838
+    },
+    {
+      "page_number": 2,
+      "char_start": 1852,
+      "char_end": 2835
+    },
+    {
+      "page_number": 3,
+      "char_start": 2849,
+      "char_end": 3873
+    },
+    {
+      "page_number": 4,
+      "char_start": 3887,
+      "char_end": 4829
+    },
+    {
+      "page_number": 5,
+      "char_start": 4843,
+      "char_end": 5889
+    },
+    {
+      "page_number": 6,
+      "char_start": 5903,
+      "char_end": 6884
+    },
+    {
+      "page_number": 7,
+      "char_start": 6898,
+      "char_end": 7815
+    },
+    {
+      "page_number": 8,
+      "char_start": 7829,
+      "char_end": 9026
+    },
+    {
+      "page_number": 9,
+      "char_start": 9040,
+      "char_end": 10068
+    },
+    {
+      "page_number": 10,
+      "char_start": 10083,
+      "char_end": 11096
+    },
+    {
+      "page_number": 11,
+      "char_start": 11111,
+      "char_end": 12172
+    },
+    {
+      "page_number": 12,
+      "char_start": 12187,
+      "char_end": 13325
+    },
+    {
+      "page_number": 13,
+      "char_start": 13340,
+      "char_end": 14480
+    },
+    {
+      "page_number": 14,
+      "char_start": 14495,
+      "char_end": 14708
+    },
+    {
+      "page_number": 15,
+      "char_start": 14723,
+      "char_end": 15758
+    },
+    {
+      "page_number": 16,
+      "char_start": 15773,
+      "char_end": 16633
+    }
+  ]
+}

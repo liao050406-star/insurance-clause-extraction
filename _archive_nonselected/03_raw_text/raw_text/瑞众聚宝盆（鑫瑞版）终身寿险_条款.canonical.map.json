@@ -1,0 +1,58 @@
+{
+  "source_file": "瑞众聚宝盆（鑫瑞版）终身寿险_条款.pdf",
+  "source_sha256": "bd0ea4ea54c444a83df127f7062c61c8682aab8449c94eaae83713fc563deca7",
+  "canonical_text_sha256": "e5e8fde64f03f140dfc238d333091ed0ff5fe1b71e0e8219aa892a2870ac5185",
+  "char_offset_rule": "0-based, char_end exclusive",
+  "pages": [
+    {
+      "page_number": 1,
+      "char_start": 13,
+      "char_end": 1514
+    },
+    {
+      "page_number": 2,
+      "char_start": 1528,
+      "char_end": 2593
+    },
+    {
+      "page_number": 3,
+      "char_start": 2607,
+      "char_end": 3633
+    },
+    {
+      "page_number": 4,
+      "char_start": 3647,
+      "char_end": 4870
+    },
+    {
+      "page_number": 5,
+      "char_start": 4884,
+      "char_end": 5943
+    },
+    {
+      "page_number": 6,
+      "char_start": 5957,
+      "char_end": 7179
+    },
+    {
+      "page_number": 7,
+      "char_start": 7193,
+      "char_end": 8260
+    },
+    {
+      "page_number": 8,
+      "char_start": 8274,
+      "char_end": 9506
+    },
+    {
+      "page_number": 9,
+      "char_start": 9520,
+      "char_end": 10782
+    },
+    {
+      "page_number": 10,
+      "char_start": 10797,
+      "char_end": 11634
+    }
+  ]
+}

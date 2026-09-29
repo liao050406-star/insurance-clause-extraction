@@ -1,0 +1,16 @@
+{
+  "source_file": "复星保德信星福家天马版终身寿险（分红型）条款.pdf",
+  "source_sha256": "474a76b1d042ce1bc889b7572587512de232952a455bf0da9e496d3259ac9ba1",
+  "status": "ok",
+  "page_count": 13,
+  "total_raw_chars": 12343,
+  "total_clean_chars": 12263,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 13
+  },
+  "removed_repeating_margin_lines": [
+    "#"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "model_id": "claude_sonnet",
+    "product_id": "nci_ezengfu_youxiang",
+    "product_name": "新华人寿E增福优享版终身寿险（互联网）",
+    "prompt_version": "v3_gold_schema",
+    "independent_blind_test": true
+  },
+  "fields": {
+    "insured_age_range": {
+      "value": "0周岁(须出生满30日)至70周岁",
+      "source_clause": "第二条 投保范围",
+      "source_text": "本合同接受的被保险人的投保年龄范围为 0 周岁(须出生满 30 日)(详见释义)至 70 周岁,且须符合投保当时我们的规定。"
+    },
+    "waiting_period": {
+      "value": 180,
+      "source_clause": "第五条 保险责任",
+      "source_text": "被保险人于本合同生效之日起 180 日(含)内因疾病原因身故或身体全残(详见释义),我们按本合同实际交纳的保险费(详见释义)给付身故或身体全残保险金,本合同终止。"
+    },
+    "coverage_type": {
+      "value": "身故或身体全残保险金",
+      "source_clause": "第五条 保险责任",
+      "source_text": "身故或身体全残保险金"
+    },
+    "benefit_before_payment_end": {
+      "value": {
+        "under_18": "max(实际交纳的保险费, 现金价值)",
+        "adult_before_payment_end": "max(实际交纳的保险费 × 给付系数, 现金价值)"
+      },
+      "source_clause": "第五条 保险责任",
+      "source_text": "1.若身故或身体全残时被保险人处于 18 周岁保单周年日(不含)之前,则其身故或身体全残保险金金额为本合同实际交纳的保险费与现金价值二者之较大者。2.若身故或身体全残时被保险人处于 18 周岁保单周年日(含)之后,则其身故或身体全残保险金根据以下不同情形确定:(1)若身故或身体全残时被保险人处于交费期间届满后的首个保单周年日(不含)之前,则其身故或身体全残保险金金额为以下二者之较大者:1本合同实际交纳的保险费×给付系数;2现金价值。"
+    },
+    "benefit_after_payment_end": {
+      "value": {
+        "adult_after_payment_end": "max(实际交纳的保险费 × 给付系数, 现金价值, 基本保险金额 × (1+2%)^(n-1))"
+      },
+      "source_clause": "第五条 保险责任",
+      "source_text": "(2)若身故或身体全残时被保险人处于交费期间届满后的首个保单周年日(含)之后,则其身故或身体全残保险金金额为以下三者之最大者:1本合同实际交纳的保险费×给付系数;2现金价值;3基本保险金额×(1+2%)(n-1),其中 n 为被保险人身故或身体全残时的保单年度数。"
+    },
+    "age_benefit_ratio": {
+      "value": {
+        "18-40周岁": 1.6,
+        "41-60周岁": 1.4,
+        "61周岁及以上": 1.2
+      },
+      "source_clause": "第五条 保险责任",
+      "source_text": "若身故或身体全残时被保险人处于 18 周岁保单周年日(含)之后、41 周岁保单周年日(不含)之前,则给付系数的数值为 1.6;若身故或身体全残时被保险人处于 41 周岁保单周年日(含)之后、61 周岁保单周年日(不含)之前,则给付系数的数值为 1.4;若身故或身体全残时被保险人处于 61 周岁保单周年日(含)之后,则给付系数的数值为 1.2。"
+    },
+    "guaranteed_growth_rate": {
+      "value": 0.02,
+      "source_clause": "第五条 保险责任",
+      "source_text": "基本保险金额×(1+2%)(n-1),其中 n 为被保险人身故或身体全残时的保单年度数。"
+    },
+    "effective_sum_assured_definition": {
+      "value": "本合同保险金额按基本保险金额进行计算确定,即基本保险金额×(1+2%)^(n-1),其中n为被保险人身故或身体全残时的保单年度数。",
+      "source_clause": "第五条 保险责任",
+      "source_text": "基本保险金额×(1+2%)(n-1),其中 n 为被保险人身故或身体全残时的保单年度数。"
+    },
+    "policy_loan": {
+      "value": {
+        "max_cash_value_ratio": 0.8,
+        "max_term_months": 6,
+        "insured_consent_required": true,
+        "after_free_look_period": true
+      },
+      "source_clause": "第十五条 保单贷款",
+      "source_text": "经被保险人书面同意,您可申请使用保单贷款功能。在本合同有效期内,经我们审核同意后您可在犹豫期后办理保单贷款。贷款金额不得超过申请贷款时本合同现金价值的 80%扣除各项欠款后的余额,每次贷款期限最长不超过 6 个月,贷款利率按您与我们约定的利率执行。"
+    },
+    "reduction_rule": {
+      "value": "在本合同保险期间内可申请减保,基本保险金额同比例减少;每个保单年度累计申请减少的基本保险金额之和不得超过本合同生效时基本保险金额的20%;减保后保险费不得低于规定的最低标准。",
+      "source_clause": "第十四条 减保",
+      "source_text": "在本合同保险期间内,您可以申请减保,经我们审核同意后,基本保险金额同比例减少,我们退还减少部分对应的现金价值。您在每个保单年度累计申请减少的基本保险金额之和不得超过本合同生效时基本保险金额的 20%。减保后,保险费不得低于我们规定的最低标准。"
+    },
+    "dividend_guarantee": {"value": null, "source_clause": null, "source_text": null},
+    "dividend_type": {"value": null, "source_clause": null, "source_text": null},
+    "dividend_payment_method": {"value": null, "source_clause": null, "source_text": null}
+  }
+}

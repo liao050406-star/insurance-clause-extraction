@@ -1,0 +1,39 @@
+{
+  "gold_sha256": "e76ddd93c670b1581d686af81228273319b09b0a7a2f19ff1fa15cab38959942",
+  "metrics": {
+    "codex_gpt5": {
+      "label": "模型A",
+      "blind": false,
+      "correct": 65,
+      "incorrect": 0,
+      "missing": 0,
+      "equivalent": 0,
+      "substantive": 0,
+      "accuracy": 1.0,
+      "substantive_accuracy": 1.0
+    },
+    "claude_sonnet": {
+      "label": "模型B",
+      "blind": true,
+      "correct": 34,
+      "incorrect": 31,
+      "missing": 0,
+      "equivalent": 25,
+      "substantive": 6,
+      "accuracy": 0.5230769230769231,
+      "substantive_accuracy": 0.9076923076923077
+    },
+    "claude_opus": {
+      "label": "模型C",
+      "blind": true,
+      "correct": 38,
+      "incorrect": 27,
+      "missing": 0,
+      "equivalent": 20,
+      "substantive": 7,
+      "accuracy": 0.5846153846153846,
+      "substantive_accuracy": 0.8923076923076924
+    }
+  },
+  "disagreement_count": 31
+}

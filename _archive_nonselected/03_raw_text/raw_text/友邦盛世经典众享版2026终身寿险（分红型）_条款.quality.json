@@ -1,0 +1,17 @@
+{
+  "source_file": "友邦盛世经典众享版2026终身寿险（分红型）_条款.pdf",
+  "source_sha256": "72d53419392d6ec556a0213bc785731f83935044394fab1a3eb54ad98a37c3ec",
+  "status": "ok",
+  "page_count": 7,
+  "total_raw_chars": 10325,
+  "total_clean_chars": 9508,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 7
+  },
+  "removed_repeating_margin_lines": [
+    "_______________________________________________________________________________________________",
+    "条款编号:L#-#"
+  ],
+  "warnings": []
+}

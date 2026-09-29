@@ -1,0 +1,771 @@
+{
+  "generated_at": "2026-09-23T09:57:06+08:00",
+  "gold_file": "08_gold_csv对比\\gold.csv",
+  "prediction_dir": "tmp\\gold_result_inputs_v1",
+  "warnings": [],
+  "summary": {
+    "gold_fields": 36,
+    "correct": 36,
+    "incorrect": 0,
+    "missing_product": 0,
+    "missing_field": 0,
+    "pending_review": 0,
+    "auto_evaluated": 36,
+    "accuracy": 1.0,
+    "source_applicable": 31,
+    "source_matched": 31,
+    "source_match_rate": 1.0,
+    "source_segments": 32,
+    "canonical_hash_matched": 32,
+    "range_matched": 32
+  },
+  "results": [
+    {
+      "product_id": "FZ01",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "insured_age_range",
+      "gold_value": "0周岁（须出生满28日）至70周岁",
+      "predicted_value": "0周岁(须出生满28日)至70周岁",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "1.3",
+          "source_page": 2,
+          "char_start": 2242,
+          "char_end": 2307,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "FZ01",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "benefit_age_band_coverage",
+      "gold_value": "全年龄段覆盖",
+      "predicted_value": "全年龄段覆盖",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.1",
+          "source_page": 3,
+          "char_start": 3276,
+          "char_end": 3389,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "FZ01",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "hesitation_period_days",
+      "gold_value": 15,
+      "predicted_value": 15,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "1.4",
+          "source_page": 2,
+          "char_start": 2315,
+          "char_end": 2345,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "FZ01",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "insurance_period",
+      "gold_value": "终身",
+      "predicted_value": "终身",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.5",
+          "source_page": 4,
+          "char_start": 4089,
+          "char_end": 4141,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "FZ01",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "waiting_period_days",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "detail": "",
+      "source_details": []
+    },
+    {
+      "product_id": "FZ01",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "coverage_scope",
+      "gold_value": "身故或全残",
+      "predicted_value": "身故或全残",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.1",
+          "source_page": 2,
+          "char_start": 2515,
+          "char_end": 2551,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "FZ01",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "fixed_insured_amount_annual_growth_rate",
+      "gold_value": 0.0175,
+      "predicted_value": 0.0175,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.1",
+          "source_page": 3,
+          "char_start": 3201,
+          "char_end": 3275,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "FZ01",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "insurance_amount_growth_mechanism",
+      "gold_value": "固定比例复利增长",
+      "predicted_value": "固定比例复利增长",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.1",
+          "source_page": 3,
+          "char_start": 3201,
+          "char_end": 3275,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "FZ01",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "is_participating",
+      "gold_value": true,
+      "predicted_value": true,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "5.1",
+          "source_page": 6,
+          "char_start": 6395,
+          "char_end": 6418,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "FZ01",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "grace_period_days",
+      "gold_value": 60,
+      "predicted_value": 60,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "4.2",
+          "source_page": 6,
+          "char_start": 6265,
+          "char_end": 6289,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "FZ01",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "policy_loan_max_ratio",
+      "gold_value": 0.8,
+      "predicted_value": 0.8,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "6.2",
+          "source_page": 8,
+          "char_start": 8159,
+          "char_end": 8209,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "FZ01",
+      "product_name": "富泽泽瑞一生（献礼版）终身寿险（分红型）",
+      "field_name": "policy_loan_max_term_months",
+      "gold_value": 6,
+      "predicted_value": 6,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "6.2",
+          "source_page": 8,
+          "char_start": 8209,
+          "char_end": 8252,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "富泽泽瑞一生（献礼版）终身寿险（分红型）.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "DF01",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "insured_age_range",
+      "gold_value": "0周岁（须出生满28日）至75周岁",
+      "predicted_value": "0周岁（须出生满28日）至75周岁",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "1.4",
+          "source_page": 2,
+          "char_start": 2114,
+          "char_end": 2172,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "DF01",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "benefit_age_band_coverage",
+      "gold_value": "全年龄段覆盖",
+      "predicted_value": "全年龄段覆盖",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.4",
+          "source_page": 4,
+          "char_start": 4414,
+          "char_end": 4548,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "DF01",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "hesitation_period_days",
+      "gold_value": 15,
+      "predicted_value": 15,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "1.5",
+          "source_page": 2,
+          "char_start": 2180,
+          "char_end": 2202,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "DF01",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "insurance_period",
+      "gold_value": "终身",
+      "predicted_value": "终身",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.3",
+          "source_page": 3,
+          "char_start": 3087,
+          "char_end": 3136,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "DF01",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "waiting_period_days",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "detail": "",
+      "source_details": []
+    },
+    {
+      "product_id": "DF01",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "coverage_scope",
+      "gold_value": "身故或全残",
+      "predicted_value": "身故或全残",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.4",
+          "source_page": 3,
+          "char_start": 3137,
+          "char_end": 3248,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "DF01",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "fixed_insured_amount_annual_growth_rate",
+      "gold_value": 0.02,
+      "predicted_value": 0.02,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.1",
+          "source_page": 3,
+          "char_start": 2861,
+          "char_end": 2951,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "DF01",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "insurance_amount_growth_mechanism",
+      "gold_value": "固定比例复利增长",
+      "predicted_value": "固定比例复利增长",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.1",
+          "source_page": 3,
+          "char_start": 2861,
+          "char_end": 2951,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "DF01",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "is_participating",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "detail": "",
+      "source_details": []
+    },
+    {
+      "product_id": "DF01",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "grace_period_days",
+      "gold_value": 60,
+      "predicted_value": 60,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "4.2",
+          "source_page": 6,
+          "char_start": 7502,
+          "char_end": 7527,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "DF01",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "policy_loan_max_ratio",
+      "gold_value": 0.8,
+      "predicted_value": 0.8,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "5.2",
+          "source_page": 7,
+          "char_start": 7886,
+          "char_end": 7952,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "DF01",
+      "product_name": "东方嘉富东方尊4.0（臻享版）终身寿险",
+      "field_name": "policy_loan_max_term_months",
+      "gold_value": 6,
+      "predicted_value": 6,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "5.2",
+          "source_page": 7,
+          "char_start": 7886,
+          "char_end": 7952,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "HA01",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "insured_age_range",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "detail": "",
+      "source_details": []
+    },
+    {
+      "product_id": "HA01",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "benefit_age_band_coverage",
+      "gold_value": "全年龄段覆盖",
+      "predicted_value": "全年龄段覆盖",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.3",
+          "source_page": 3,
+          "char_start": 6530,
+          "char_end": 6970,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "HA01",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "hesitation_period_days",
+      "gold_value": 15,
+      "predicted_value": 15,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "1.5",
+          "source_page": 2,
+          "char_start": 5194,
+          "char_end": 5241,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "HA01",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "insurance_period",
+      "gold_value": "终身",
+      "predicted_value": "终身",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "1.3",
+          "source_page": 2,
+          "char_start": 4930,
+          "char_end": 4959,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "HA01",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "waiting_period_days",
+      "gold_value": 90,
+      "predicted_value": 90,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.2",
+          "source_page": 3,
+          "char_start": 6171,
+          "char_end": 6210,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "HA01",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "coverage_scope",
+      "gold_value": "身故",
+      "predicted_value": "身故",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.3",
+          "source_page": 3,
+          "char_start": 6314,
+          "char_end": 6408,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "HA01",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "fixed_insured_amount_annual_growth_rate",
+      "gold_value": null,
+      "predicted_value": null,
+      "result": "correct",
+      "source_result": "not_applicable",
+      "detail": "",
+      "source_details": []
+    },
+    {
+      "product_id": "HA01",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "insurance_amount_growth_mechanism",
+      "gold_value": "红利保险金额累加（非固定增长）",
+      "predicted_value": "红利保险金额累加（非固定增长）",
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.1",
+          "source_page": 3,
+          "char_start": 5957,
+          "char_end": 6022,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt",
+          "canonical_hash_match": true
+        },
+        {
+          "source_clause": "2.5",
+          "source_page": 4,
+          "char_start": 7337,
+          "char_end": 7364,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "HA01",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "is_participating",
+      "gold_value": true,
+      "predicted_value": true,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "2.5",
+          "source_page": 4,
+          "char_start": 7337,
+          "char_end": 7364,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "HA01",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "grace_period_days",
+      "gold_value": 60,
+      "predicted_value": 60,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "3.2",
+          "source_page": 4,
+          "char_start": 7941,
+          "char_end": 7963,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "HA01",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "policy_loan_max_ratio",
+      "gold_value": 0.8,
+      "predicted_value": 0.8,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "3.6.1",
+          "source_page": 5,
+          "char_start": 9276,
+          "char_end": 9368,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    },
+    {
+      "product_id": "HA01",
+      "product_name": "恒安标准传世瑞盈B款终身寿险（分红型）",
+      "field_name": "policy_loan_max_term_months",
+      "gold_value": 6,
+      "predicted_value": 6,
+      "result": "correct",
+      "source_result": "matched_strict",
+      "detail": "",
+      "source_details": [
+        {
+          "source_clause": "3.6.1",
+          "source_page": 5,
+          "char_start": 9276,
+          "char_end": 9368,
+          "range_match": true,
+          "text_match": "matched_strict",
+          "canonical_file": "恒安标准传世瑞盈B款终身寿险（分红型）条款.canonical.txt",
+          "canonical_hash_match": true
+        }
+      ]
+    }
+  ]
+}

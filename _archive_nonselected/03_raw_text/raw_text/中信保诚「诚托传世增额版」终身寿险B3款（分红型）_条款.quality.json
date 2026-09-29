@@ -1,0 +1,14 @@
+{
+  "source_file": "中信保诚「诚托传世增额版」终身寿险B3款（分红型）_条款.pdf",
+  "source_sha256": "febf68a79647c817962dae51ec02b1d56ae34d0b79ae589a1438eda90e2b50b2",
+  "status": "ok",
+  "page_count": 10,
+  "total_raw_chars": 9577,
+  "total_clean_chars": 9573,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 10
+  },
+  "removed_repeating_margin_lines": [],
+  "warnings": []
+}

@@ -1,0 +1,14 @@
+{
+  "source_file": "东方嘉富东方尊4.0（臻享版）终身寿险条款.pdf",
+  "source_sha256": "b7d244e3a272e447e3c7033dc5e2c798512f098de8a7ddbd004f3a22f54d085c",
+  "status": "ok",
+  "page_count": 9,
+  "total_raw_chars": 10138,
+  "total_clean_chars": 10579,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 9
+  },
+  "removed_repeating_margin_lines": [],
+  "warnings": []
+}

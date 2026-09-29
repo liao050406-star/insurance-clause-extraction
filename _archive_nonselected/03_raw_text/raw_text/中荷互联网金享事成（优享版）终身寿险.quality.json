@@ -1,0 +1,18 @@
+{
+  "source_file": "中荷互联网金享事成（优享版）终身寿险.pdf",
+  "source_sha256": "4acf1ddfbc2166d16c34a61c03375c69e7e806966da5fa9097f2f42ca85d316a",
+  "status": "ok",
+  "page_count": 13,
+  "total_raw_chars": 13798,
+  "total_clean_chars": 13619,
+  "low_text_pages": [],
+  "extractor_counts": {
+    "pdfplumber": 13
+  },
+  "removed_repeating_margin_lines": [
+    "#-#",
+    "条",
+    "款"
+  ],
+  "warnings": []
+}
